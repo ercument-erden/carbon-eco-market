@@ -1,0 +1,3648 @@
+## invest/index.html (devam - tamamı)
+
+```html
+    <!-- GTM Strategy -->
+    <section class="gtm-strategy">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Go-to-Market</span>
+                <h2>Customer Acquisition Strategy</h2>
+                <p>Multi-channel approach targeting CBAM urgency</p>
+            </div>
+            
+            <div class="gtm-phases">
+                <div class="phase-card">
+                    <div class="phase-header">
+                        <div class="phase-number">Phase 1</div>
+                        <h3>Pilot & Launch (Q1-Q2 2026)</h3>
+                        <span class="phase-timeline">Months 0-6</span>
+                    </div>
+                    <div class="phase-content">
+                        <h4>Target: 20 Customers</h4>
+                        <ul class="phase-tactics">
+                            <li><strong>Convert 12 LOIs:</strong> Direct outreach to signed letters of intent</li>
+                            <li><strong>Advisor Networks:</strong> Leverage Selim (ACWA), Hüseyin (Borusan), Ilgın (ÇEKÜL) for warm intros</li>
+                            <li><strong>Industry Associations:</strong> TIM, TÜSİAD, İSO presentations</li>
+                            <li><strong>CBAM Panic Marketing:</strong> "10 months until mandatory deadline" campaigns</li>
+                            <li><strong>Pilot Discount:</strong> 50% off first year for early adopters</li>
+                        </ul>
+                        <div class="phase-metrics">
+                            <div class="metric">CAC: <strong>$5K</strong></div>
+                            <div class="metric">ARR: <strong>$720K</strong></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="phase-card">
+                    <div class="phase-header">
+                        <div class="phase-number">Phase 2</div>
+                        <h3>Scale (Q3 2026 - Q4 2027)</h3>
+                        <span class="phase-timeline">Months 6-24</span>
+                    </div>
+                    <div class="phase-content">
+                        <h4>Target: 60 Customers (Y2)</h4>
+                        <ul class="phase-tactics">
+                            <li><strong>Digital Marketing:</strong> Google Ads ("CBAM compliance Turkey"), LinkedIn sponsored</li>
+                            <li><strong>Content Marketing:</strong> CBAM compliance guides, webinars, blog (SEO)</li>
+                            <li><strong>Events & Roadshows:</strong> 10 cities, sector-specific workshops</li>
+                            <li><strong>Channel Partnerships:</strong> ERP consultants (SAP, Oracle partners), accounting firms (PwC, Deloitte)</li>
+                            <li><strong>Case Studies:</strong> Publish success stories from pilot customers</li>
+                            <li><strong>Referral Program:</strong> $5K credit for every referral</li>
+                        </ul>
+                        <div class="phase-metrics">
+                            <div class="metric">CAC: <strong>$3-4K</strong></div>
+                            <div class="metric">ARR: <strong>$2M</strong></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="phase-card">
+                    <div class="phase-header">
+                        <div class="phase-number">Phase 3</div>
+                        <h3>Dominate (2028-2030)</h3>
+                        <span class="phase-timeline">Months 24-60</span>
+                    </div>
+                    <div class="phase-content">
+                        <h4>Target: 150-500 Customers</h4>
+                        <ul class="phase-tactics">
+                            <li><strong>Brand Leadership:</strong> "The CBAM Platform" positioning</li>
+                            <li><strong>Inbound Dominance:</strong> 60%+ leads from organic/referral</li>
+                            <li><strong>Geographic Expansion:</strong> Balkans (Serbia, Bulgaria, Romania), MENA (UAE, Saudi)</li>
+                            <li><strong>Product-Led Growth:</strong> Self-service SME tier, freemium carbon calculator</li>
+                            <li><strong>Enterprise Sales Team:</strong> Hire 5 AEs, 2 SEs</li>
+                            <li><strong>Strategic Partnerships:</strong> Microsoft, SAP, Oracle co-selling</li>
+                        </ul>
+                        <div class="phase-metrics">
+                            <div class="metric">CAC: <strong>$2-3K</strong></div>
+                            <div class="metric">ARR: <strong>$10M+</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="sales-funnel">
+                <h3>B2B Sales Funnel</h3>
+                <div class="funnel-visual">
+                    <div class="funnel-stage" style="width: 100%;">
+                        <span class="stage-label">Awareness</span>
+                        <span class="stage-value">1,000 visitors/mo</span>
+                    </div>
+                    <div class="funnel-stage" style="width: 50%;">
+                        <span class="stage-label">Demo Request</span>
+                        <span class="stage-value">100 leads/mo (10%)</span>
+                    </div>
+                    <div class="funnel-stage" style="width: 25%;">
+                        <span class="stage-label">Qualified</span>
+                        <span class="stage-value">50 SQL/mo (50%)</span>
+                    </div>
+                    <div class="funnel-stage" style="width: 10%;">
+                        <span class="stage-label">Proposal</span>
+                        <span class="stage-value">20 proposals/mo (40%)</span>
+                    </div>
+                    <div class="funnel-stage" style="width: 5%;">
+                        <span class="stage-label">Close</span>
+                        <span class="stage-value">5 customers/mo (25%)</span>
+                    </div>
+                </div>
+                <div class="funnel-metrics">
+                    <div class="funnel-metric">
+                        <strong>Sales Cycle:</strong> 45-60 days (SME), 90-120 days (Enterprise)
+                    </div>
+                    <div class="funnel-metric">
+                        <strong>Win Rate:</strong> 25% (proposal → close)
+                    </div>
+                    <div class="funnel-metric">
+                        <strong>Deal Size:</strong> $18K (SME), $60K (Enterprise)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use of Funds -->
+    <section class="use-of-funds">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Use of Funds</span>
+                <h2>How We'll Spend $1.5-2M</h2>
+                <p>24-month runway to profitability</p>
+            </div>
+            
+            <div class="funds-overview">
+                <div class="funds-chart">
+                    <div class="pie-chart">
+                        <div class="pie-slice pie-product" style="--percentage: 40;"></div>
+                        <div class="pie-slice pie-compliance" style="--percentage: 25;"></div>
+                        <div class="pie-slice pie-gtm" style="--percentage: 25;"></div>
+                        <div class="pie-slice pie-ops" style="--percentage: 10;"></div>
+                    </div>
+                    <div class="pie-legend">
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #27ae60;"></span>
+                            <span>Product & Tech (40%)</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #2980b9;"></span>
+                            <span>Compliance & Legal (25%)</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #e67e22;"></span>
+                            <span>Sales & Marketing (25%)</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color" style="background: #95a5a6;"></span>
+                            <span>Operations (10%)</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="funds-summary">
+                    <div class="summary-item">
+                        <div class="summary-amount">$750K</div>
+                        <div class="summary-label">Product & Technology</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-amount">$470K</div>
+                        <div class="summary-label">Compliance & Legal</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-amount">$470K</div>
+                        <div class="summary-label">Sales & Marketing</div>
+                    </div>
+                    <div class="summary-item">
+                        <div class="summary-amount">$190K</div>
+                        <div class="summary-label">Operations</div>
+                    </div>
+                    <div class="summary-total">
+                        <strong>Total: $1.88M</strong>
+                        <small>(Mid-point of $1.5-2M range)</small>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="funds-breakdown">
+                <div class="breakdown-category">
+                    <div class="category-header">
+                        <div class="category-icon">💻</div>
+                        <h3>Product & Technology (40% - $750K)</h3>
+                    </div>
+                    <div class="category-items">
+                        <div class="item-row">
+                            <span class="item-name">Full-Stack Development (3 engineers × 24mo)</span>
+                            <span class="item-cost">$360K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Blockchain Integration (Polygon, smart contracts)</span>
+                            <span class="item-cost">$120K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">IoT Hardware & Development (sensors, MQTT)</span>
+                            <span class="item-cost">$80K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">AI/ML Model Development (carbon pricing)</span>
+                            <span class="item-cost">$60K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Cloud Infrastructure (AWS/Azure, 24mo)</span>
+                            <span class="item-cost">$50K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">UI/UX Design & Branding</span>
+                            <span class="item-cost">$40K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Security & DevOps (SOC 2, penetration testing)</span>
+                            <span class="item-cost">$40K</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="breakdown-category">
+                    <div class="category-header">
+                        <div class="category-icon">⚖️</div>
+                        <h3>Compliance & Legal (25% - $470K)</h3>
+                    </div>
+                    <div class="category-items">
+                        <div class="item-row">
+                            <span class="item-name">CBAM Regulation Consulting (EU specialists)</span>
+                            <span class="item-cost">$150K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Blockchain/Crypto Legal (tokenization compliance)</span>
+                            <span class="item-cost">$80K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Carbon Credit Certification (Verra, Gold Standard)</span>
+                            <span class="item-cost">$70K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">SOC 2 / ISO 27001 Certification</span>
+                            <span class="item-cost">$60K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">IP Protection (patents, trademarks)</span>
+                            <span class="item-cost">$40K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Corporate Legal (contracts, T&Cs)</span>
+                            <span class="item-cost">$40K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Data Privacy (GDPR, KVKK compliance)</span>
+                            <span class="item-cost">$30K</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="breakdown-category">
+                    <div class="category-header">
+                        <div class="category-icon">📈</div>
+                        <h3>Sales & Marketing (25% - $470K)</h3>
+                    </div>
+                    <div class="category-items">
+                        <div class="item-row">
+                            <span class="item-name">Sales Team (2 AEs × 24mo, $8K/mo each)</span>
+                            <span class="item-cost">$384K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Digital Marketing (Google, LinkedIn, 24mo)</span>
+                            <span class="item-cost">$48K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Events & Roadshows (10 cities, materials)</span>
+                            <span class="item-cost">$24K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Content Marketing (blog, SEO, videos)</span>
+                            <span class="item-cost">$14K</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="breakdown-category">
+                    <div class="category-header">
+                        <div class="category-icon">⚙️</div>
+                        <h3>Operations (10% - $190K)</h3>
+                    </div>
+                    <div class="category-items">
+                        <div class="item-row">
+                            <span class="item-name">Office & Co-working Space (24mo)</span>
+                            <span class="item-cost">$48K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">SaaS Tools (CRM, analytics, project mgmt)</span>
+                            <span class="item-cost">$36K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Accounting & Finance (CFO services)</span>
+                            <span class="item-cost">$36K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">HR & Recruitment</span>
+                            <span class="item-cost">$24K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Insurance (D&O, liability)</span>
+                            <span class="item-cost">$24K</span>
+                        </div>
+                        <div class="item-row">
+                            <span class="item-name">Contingency (10% buffer)</span>
+                            <span class="item-cost">$22K</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="runway-calc">
+                <h3>Runway Calculation</h3>
+                <div class="runway-row">
+                    <span>Total Raise:</span>
+                    <strong>$1.88M</strong>
+                </div>
+                <div class="runway-row">
+                    <span>Monthly Burn Rate:</span>
+                    <strong>$78K/month</strong>
+                </div>
+                <div class="runway-row highlight">
+                    <span>Runway:</span>
+                    <strong>24 months</strong>
+                </div>
+                <div class="runway-note">
+                    <p>✓ Sufficient to reach $3-5M ARR and raise Series A at $20-30M valuation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Milestones -->
+    <section class="milestones">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Milestones</span>
+                <h2>24-Month Roadmap</h2>
+                <p>Key metrics and deliverables</p>
+            </div>
+            
+            <div class="milestone-timeline">
+                <div class="milestone-item">
+                    <div class="milestone-date">Month 6 (Q2 2026)</div>
+                    <div class="milestone-content">
+                        <h3>MVP Launch</h3>
+                        <ul class="milestone-goals">
+                            <li>✓ CBAM compliance module live</li>
+                            <li>✓ 10 pilot customers onboarded</li>
+                            <li>✓ $100K ARR</li>
+                            <li>✓ Product-market fit validated</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="milestone-item">
+                    <div class="milestone-date">Month 12 (Q4 2026)</div>
+                    <div class="milestone-content">
+                        <h3>CBAM Deadline</h3>
+                        <ul class="milestone-goals">
+                            <li>✓ 30 paying customers</li>
+                            <li>✓ $500K ARR</li>
+                            <li>✓ Blockchain registry mainnet launch</li>
+                            <li>✓ 100 IoT sensors deployed</li>
+                            <li>✓ First 1,000 tons carbon traded</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="milestone-item">
+                    <div class="milestone-date">Month 18 (Q2 2027)</div>
+                    <div class="milestone-content">
+                        <h3>Scale Phase</h3>
+                        <ul class="milestone-goals">
+                            <li>✓ 75 customers</li>
+                            <li>✓ $1.5M ARR</li>
+                            <li>✓ Balkans expansion (3 countries)</li>
+                            <li>✓ 500 farmers on platform</li>
+                            <li>✓ API marketplace launch</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="milestone-item milestone-series-a">
+                    <div class="milestone-date">Month 24 (Q4 2027)</div>
+                    <div class="milestone-content">
+                        <h3>Series A Ready</h3>
+                        <ul class="milestone-goals">
+                            <li>✓ 150 customers</li>
+                            <li>✓ $3M ARR</li>
+                            <li>✓ Profitable unit economics (LTV/CAC &gt; 3)</li>
+                            <li>✓ 95%+ net revenue retention</li>
+                            <li>✓ Raise $10-15M Series A at $25-35M pre-money</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="kpi-dashboard">
+                <h3>Key Performance Indicators (KPIs)</h3>
+                <div class="kpi-grid">
+                    <div class="kpi-card">
+                        <div class="kpi-label">ARR Growth</div>
+                        <div class="kpi-target">250% YoY</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">CAC Payback</div>
+                        <div class="kpi-target">&lt; 6 months</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">LTV/CAC</div>
+                        <div class="kpi-target">&gt; 5x</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Net Revenue Retention</div>
+                        <div class="kpi-target">&gt; 120%</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Gross Margin</div>
+                        <div class="kpi-target">70%+</div>
+                    </div>
+                    <div class="kpi-card">
+                        <div class="kpi-label">Churn (monthly)</div>
+                        <div class="kpi-target">&lt; 2%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team (Detailed) -->
+    <section class="team-detailed">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Team</span>
+                <h2>World-Class Team</h2>
+                <p>100+ years combined experience in energy, finance, and technology</p>
+            </div>
+            
+            <div class="founders-detailed">
+                <div class="founder-profile">
+                    <div class="profile-header">
+                        <div class="profile-photo-large">
+                            <div class="photo-placeholder-large">EM</div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Ercüment Erden</h3>
+                            <div class="profile-title">Founder & CEO</div>
+                            <div class="profile-equity">Ownership: 73% pre-seed, 56% post-seed</div>
+                            <a href="https://www.linkedin.com/in/ercumenterden/" class="profile-linkedin" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 20 20">
+                                    <path d="M4 3 H16 A1 1 0 0 1 17 4 V16 A1 1 0 0 1 16 17 H4 A1 1 0 0 1 3 16 V4 A1 1 0 0 1 4 3 Z" fill="#0077b5"/>
+                                </svg>
+                                View LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                    <div class="profile-content">
+                        <h4>Background</h4>
+                        <ul>
+                            <li>Serial entrepreneur, founder of Lionexia (technology consulting)</li>
+                            <li>15+ years in international business, technology strategy, and ethical AI</li>
+                            <li>Deep understanding of energy markets and carbon economics</li>
+                            <li>Strong network in Turkish business ecosystem (TÜSİAD, TIM)</li>
+                        </ul>
+                        <h4>Why This Matters</h4>
+                        <p>Ercüment brings vision, industry connections, and execution track record. His pivot to carbon markets is strategic—spotted CBAM opportunity 18 months before competitors.</p>
+                    </div>
+                </div>
+                
+                <div class="founder-profile">
+                    <div class="profile-header">
+                        <div class="profile-photo-large">
+                            <div class="photo-placeholder-large">FM</div>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Fatih Malyemez</h3>
+                            <div class="profile-title">Co-Founder & CTO</div>
+                            <div class="profile-equity">Ownership: 15% pre-seed, 11.7% post-seed</div>
+                            <a href="https://www.linkedin.com/in/fatih-malyemez-86b98a245" class="profile-linkedin" target="_blank">
+                                <svg width="20" height="20" viewBox="0 0 20 20">
+                                    <path d="M4 3 H16 A1 1 0 0 1 17 4 V16 A1 1 0 0 1 16 17 H4 A1 1 0 0 1 3 16 V4 A1 1 0 0 1 4 3 Z" fill="#0077b5"/>
+                                </svg>
+                                View LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                    <div class="profile-content">
+                        <h4>Technical Expertise</h4>
+                        <ul>
+                            <li><strong>18 years</strong> software development (.NET Core, Microservices, Blockchain)</li>
+                            <li>Currently: Senior Software Developer at Aryom Yüksek Yazılım (SIEM security products)</li>
+                            <li>Previous: E-invoicing, bank integrations, identity access management (IAM), mobile apps</li>
+                            <li><strong>Tech Stack:</strong> .NET Core, Kubernetes, Docker, Polygon blockchain, IoT (MQTT, Raspberry Pi), AI agents (Python, LLM)</li>
+                        </ul>
+                        <h4>Why This Matters</h4>
+                        <p>Fatih is a rare full-stack + blockchain + IoT expert. He's already built enterprise security systems and understands compliance requirements. Can architect and ship the entire platform solo if needed.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="advisors-detailed">
+                <h3>Advisory Board</h3>
+                
+                <div class="advisor-profile">
+                    <div class="advisor-header">
+                        <div class="advisor-photo-large">
+                            <div class="photo-placeholder-large">SG</div>
+                        </div>
+                        <div class="advisor-info">
+                            <h4>Selim Güven</h4>
+                            <div class="advisor-title">Strategic Advisor (Finance & Energy)</div>
+                            <div class="advisor-equity">1.5% equity, 4-year vesting</div>
+                        </div>
+                    </div>
+                    <div class="advisor-bio">
+                        <p><strong>Current:</strong> Country General Manager, ACWA Power (Turkey & Azerbaijan)</p>
+                        <p><strong>Previous:</strong> Chief Commercial Officer, Akenerji | Director of Energy Sales & Trading, Akenerji | Multiple roles at Borusan</p>
+                        <p><strong>Experience:</strong> 25+ years in energy trading, power generation, and strategic planning. Deep relationships with energy regulators and corporate buyers.</p>
+                        <p><strong>Value Add:</strong> Opens doors to ACWA Power network ($95B project portfolio), helps structure energy-sector carbon deals, advises on regulatory strategy.</p>
+                    </div>
+                </div>
+                
+                <div class="advisor-profile">
+                    <div class="advisor-header">
+                        <div class="advisor-photo-large">
+                            <div class="photo-placeholder-large">HY</div>
+                        </div>
+                        <div class="advisor-info">
+                            <h4>Hüseyin Yeğin</h4>
+                            <div class="advisor-title">Strategic Advisor (Operations & Carbon Markets)</div>
+                            <div class="advisor-equity">1.25% equity, 4-year vesting</div>
+                        </div>
+                    </div>
+                    <div class="advisor-bio">
+                        <p><strong>Current:</strong> Executive Board Member, Borusan EnBW Enerji</p>
+                        <p><strong>Previous:</strong> Multiple leadership roles in commodity trading, power trading management, risk management</p>
+                        <p><strong>Experience:</strong> 20+ years in energy markets, carbon trading, and risk management. Expert in CBAM regulations and EU carbon markets.</p>
+                        <p><strong>Value Add:</strong> Deep CBAM expertise, connects to industrial customers (steel, cement via Borusan network), advises on carbon pricing strategy.</p>
+                    </div>
+                </div>
+                
+                <div class="advisor-profile">
+                    <div class="advisor-header">
+                        <div class="advisor-photo-large">
+                            <div class="photo-placeholder-large">İS</div>
+                        </div>
+                        <div class="advisor-info">
+                            <h4>Ilgın Sözen</h4>
+                            <div class="advisor-title">Strategic Advisor (ESG & Communications)</div>
+                            <div class="advisor-equity">1.0% equity, 4-year vesting</div>
+                        </div>
+                    </div>
+                    <div class="advisor-bio">
+                        <p><strong>Current:</strong> Deputy Secretary General, ÇEKÜL Foundation (cultural heritage & environment NGO)</p>
+                        <p><strong>Previous:</strong> Founder, Co2Nötr (carbon tech AI) | Communications & branding roles at major agencies</p>
+                        <p><strong>Experience:</strong> NGO networks, ESG reporting, carbon tech, sustainability communications</p>
+                        <p><strong>Value Add:</strong> Connects to NGO/academia for verification, advises on ESG storytelling, helps with regulatory communications.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hiring-plan">
+                <h3>Hiring Roadmap (Next 24 Months)</h3>
+                <div class="hiring-timeline">
+                    <div class="hire-phase">
+                        <h4>Months 0-6 (Post-Seed)</h4>
+                        <ul>
+                            <li>2 Backend Engineers (.NET, blockchain)</li>
+                            <li>1 Frontend Engineer (React)</li>
+                            <li>1 Account Executive (sales)</li>
+                            <li>1 CBAM Compliance Specialist</li>
+                        </ul>
+                        <div class="hire-total">Total: 5 hires</div>
+                    </div>
+                    
+                    <div class="hire-phase">
+                        <h4>Months 6-12</h4>
+                        <ul>
+                            <li>1 Senior Backend Engineer (lead)</li>
+                            <li>1 DevOps Engineer (Kubernetes)</li>
+                            <li>1 Account Executive (sales)</li>
+                            <li>1 Customer Success Manager</li>
+                            <li>1 Marketing Manager</li>
+                        </ul>
+                        <div class="hire-total">Total: 5 hires</div>
+                    </div>
+                    
+                    <div class="hire-phase">
+                        <h4>Months 12-24</h4>
+                        <ul>
+                            <li>2 Account Executives</li>
+                            <li>1 Sales Engineer</li>
+                            <li>1 Data Scientist (AI pricing)</li>
+                            <li>1 VP Sales</li>
+                            <li>1 Finance Manager (CFO track)</li>
+                        </ul>
+                        <div class="hire-total">Total: 6 hires</div>
+                    </div>
+                </div>
+                <div class="team-size-goal">
+                    <strong>Team Size by Month 24:</strong> 18 people (currently 2)
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Traction Evidence -->
+    <section class="traction-evidence">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Traction</span>
+                <h2>Proof of Demand</h2>
+                <p>Concrete evidence we're onto something big</p>
+            </div>
+            
+            <div class="evidence-grid">
+                <div class="evidence-card">
+                    <div class="evidence-icon">📝</div>
+                    <div class="evidence-stat">12 LOIs</div>
+                    <h4>Letters of Intent Signed</h4>
+                    <p>From steel, cement, and chemical exporters. Total 50,000 tons/year carbon volume potential.</p>
+                    <div class="evidence-breakdown">
+                        <strong>Sectors:</strong>
+                        <ul>
+                            <li>4 × Steel manufacturers</li>
+                            <li>3 × Cement producers</li>
+                            <li>3 × Chemical exporters</li>
+                            <li>2 × Fertilizer companies</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="evidence-card">
+                    <div class="evidence-icon">🤝</div>
+                    <div class="evidence-stat">3 Advisors</div>
+                    <h4>C-Level Advisors Committed</h4>
+                    <p>ACWA Power Country GM, Borusan EnBW Executive, ÇEKÜL Deputy SG. Combined 60+ years experience.</p>
+                    <div class="evidence-value">
+                        <strong>Network Value:</strong> Access to 200+ potential enterprise customers
+                    </div>
+                </div>
+                
+                <div class="evidence-card">
+                    <div class="evidence-icon">🎯</div>
+                    <div class="evidence-stat">25+ Pipeline</div>
+                    <h4>Pilot Customer Pipeline</h4>
+                    <p>Active conversations with 25 firms for pilot program (50% discount). Expected conversion: 10-15 paying customers in Q1 2026.</p>
+                </div>
+                
+                <div class="evidence-card">
+                    <div class="evidence-icon">🏗️</div>
+                    <div class="evidence-stat">MVP 70%</div>
+                    <h4>Product Development</h4>
+                    <p>CBAM compliance engine 70% complete. Blockchain testnet deployed. UI/UX designs finalized. Launch-ready in 3 months.</p>
+                </div>
+                
+                <div class="evidence-card">
+                    <div class="evidence-icon">🌐</div>
+                    <div class="evidence-stat">Domain Live</div>
+                    <h4>carbonecomarket.com</h4>
+                    <p>Website live with TR/EN versions. Collecting inbound leads. 50+ demo requests in 2 weeks.</p>
+                </div>
+                
+                <div class="evidence-card">
+                    <div class="evidence-icon">📊</div>
+                    <div class="evidence-stat">Market Research</div>
+                    <h4>Customer Discovery</h4>
+                    <p>Interviewed 30+ potential customers. 87% confirmed they will need CBAM solution by 2026. Average willingness to pay: $2-5K/month.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Investment Terms -->
+    <section class="investment-terms">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Investment Terms</span>
+                <h2>Seed Round Details</h2>
+                <p>Transparent, founder-friendly terms</p>
+            </div>
+            
+            <div class="terms-grid">
+                <div class="term-card">
+                    <h3>Round Size</h3>
+                    <div class="term-value">$1.5-2M USD</div>
+                    <p>Flexible based on investor quality and strategic value</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3>Instrument</h3>
+                    <div class="term-value">SAFE (MFN) or Equity</div>
+                    <p>Prefer SAFE for speed, open to priced equity round</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3>Valuation</h3>
+                    <div class="term-value">$9.1M Post-Money</div>
+                    <p>18-22% equity for $1.5-2M investment</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3>Pro-Rata Rights</h3>
+                    <div class="term-value">✓ Included</div>
+                    <p>Maintain ownership % in future rounds</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3>Information Rights</h3>
+                    <div class="term-value">✓ Quarterly Updates</div>
+                    <p>Financials, metrics, board deck access</p>
+                </div>
+                
+                <div class="term-card">
+                    <h3>Board Seat</h3>
+                    <div class="term-value">Observer Seat</div>
+                    <p>Full voting board seat at Series A</p>
+                </div>
+            </div>
+            
+            <div class="cap-table">
+                <h3>Capitalization Table</h3>
+                <div class="cap-table-wrapper">
+                    <table class="cap-table-grid">
+                        <thead>
+                            <tr>
+                                <th>Shareholder</th>
+                                <th>Pre-Seed</th>
+                                <th>Post-Seed</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Ercüment Erden (CEO)</strong></td>
+                                <td>73%</td>
+                                <td>56.9%</td>
+                                <td>Founder, voting control</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Fatih Malyemez (CTO)</strong></td>
+                                <td>15%</td>
+                                <td>11.7%</td>
+                                <td>4-year vesting, 1-year cliff</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Advisors (3 total)</strong></td>
+                                <td>3.75%</td>
+                                <td>2.9%</td>
+                                <td>Selim 1.5%, Hüseyin 1.25%, Ilgın 1%</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Option Pool</strong></td>
+                                <td>8.25%</td>
+                                <td>6.4%</td>
+                                <td>Future hires, unallocated</td>
+                            </tr>
+                            <tr class="investor-row">
+                                <td><strong>Seed Investors (You)</strong></td>
+                                <td>—</td>
+                                <td>22%</td>
+                                <td>$1.5-2M investment</td>
+                            </tr>
+                            <tr class="total-row">
+                                <td><strong>TOTAL</strong></td>
+                                <td>100%</td>
+                                <td>100%</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="investor-protections">
+                <h3>Investor Protections</h3>
+                <div class="protections-grid">
+                    <div class="protection-item">
+                        <strong>Anti-Dilution:</strong> Weighted average (broad-based)
+                    </div>
+                    <div class="protection-item">
+                        <strong>Liquidation Preference:</strong> 1x non-participating
+                    </div>
+                    <div class="protection-item">
+                        <strong>Drag-Along:</strong> Majority shareholders can force sale
+                    </div>
+                    <div class="protection-item">
+                        <strong>Tag-Along:</strong> Investors can join founder exit
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exit Strategy -->
+    <section class="exit-strategy">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Exit</span>
+                <h2>Path to Liquidity</h2>
+                <p>Multiple exit scenarios, all investor-friendly</p>
+            </div>
+            
+            <div class="exit-scenarios">
+                <div class="scenario-card primary-scenario">
+                    <div class="scenario-badge">Most Likely</div>
+                    <h3>Strategic Acquisition (Year 5-7)</h3>
+                    <div class="scenario-valuation">$300-500M</div>
+                    <div class="scenario-content">
+                        <h4>Potential Acquirers:</h4>
+                        <ul>
+                            <li><strong>Xpansiv (US):</strong> Already $1.8B valuation, wants EMEA expansion</li>
+                            <li><strong>SAP:</strong> Needs carbon module for SAP S/4HANA customers</li>
+                            <li><strong>Microsoft:</strong> Building sustainability cloud, lacks CBAM native</li>
+                            <li><strong>Schneider Electric:</strong> Energy management + carbon = perfect fit</li>
+                            <li><strong>Siemens Energy:</strong> Industrial IoT + carbon compliance synergy</li>
+                        </ul>
+                        <h4>Why They'd Pay Premium:</h4>
+                        <ul>
+                            <li>✓ Only CBAM-native platform with proven traction</li>
+                            <li>✓ Proprietary Turkish/MENA supply chain emissions database</li>
+                            <li>✓ Blockchain IP + IoT MRV technology</li>
+                            <li>✓ 500+ enterprise customers (impossible to replicate quickly)</li>
+                        </ul>
+                        <div class="scenario-returns">
+                            <strong>Seed Investor Returns:</strong>
+                            <div class="return-calc">
+                                $400M exit × 22% ownership = <strong>$88M</strong><br>
+                                ROI: <strong>44-59x</strong> (on $1.5-2M investment)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="scenario-card">
+                    <h3>IPO (Year 7-10)</h3>
+                    <div class="scenario-valuation">$1B+</div>
+                    <div class="scenario-content">
+                        <p>If we dominate Turkey/MENA and expand to Europe, IPO becomes viable.</p>
+                        <h4>Comparables:</h4>
+                        <ul>
+                            <li>Xpansiv (carbon exchange): IPO-track, $1.8B</li>
+                            <li>Watershed (carbon accounting): $1B valuation, Series B</li>
+                            <li>Persefoni (ESG software): $500M, potential IPO 2025-26</li>
+                        </ul>
+                        <h4>Requirements:</h4>
+                        <ul>
+                            <li>$100M+ ARR</li>
+                            <li>30%+ YoY growth</li>
+                            <li>Rule of 40 compliant (growth + profit margin)</li>
+                        </ul>
+                        <div class="scenario-returns">
+                            <strong>Seed Returns:</strong> <span class="highlight-return">80-110x</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="scenario-card">
+                    <h3>Secondary Sale (Year 3-5)</h3>
+                    <div class="scenario-valuation">Partial Liquidity</div>
+                    <div class="scenario-content">
+                        <p>During Series B/C, seed investors can sell 25-50% of holdings to new investors for partial liquidity.</p>
+                        <h4>Example:</h4>
+                        <ul>
+                            <li>Series B at $150M valuation (Year 4)</li>
+                            <li>Seed investor sells 50% stake</li>
+                            <li>Immediate 8-11x cash return</li>
+                            <li>Keep remaining 50% for bigger exit</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="exit-timeline-visual">
+                <h3>Expected Exit Timeline</h3>
+                <div class="timeline-bar">
+                    <div class="timeline-segment" style="width: 20%;">
+                        <span class="segment-label">Y1-2<br>Build</span>
+                    </div>
+                    <div class="timeline-segment" style="width: 20%;">
+                        <span class="segment-label">Y3<br>Scale</span>
+                    </div>
+                    <div class="timeline-segment" style="width: 20%;">
+                        <span class="segment-label">Y4-5<br>Dominate</span>
+                    </div>
+                    <div class="timeline-segment exit-window" style="width: 40%;">
+                        <span class="segment-label">Y5-7<br>EXIT WINDOW</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Risks -->
+    <section class="risks">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Risks</span>
+                <h2>Risk Analysis & Mitigation</h2>
+                <p>We've thought through what could go wrong</p>
+            </div>
+            
+            <div class="risks-grid">
+                <div class="risk-card">
+                    <div class="risk-header">
+                        <div class="risk-severity medium">MEDIUM</div>
+                        <h3>CBAM Delay or Postponement</h3>
+                    </div>
+                    <div class="risk-content">
+                        <h4>Risk:</h4>
+                        <p>EU postpones CBAM mandatory reporting beyond Jan 2026 due to political pressure.</p>
+                        <h4>Likelihood:</h4>
+                        <p>15% — EU has already delayed once (was 2023), but political commitment strong.</p>
+                        <h4>Mitigation:</h4>
+                        <ul>
+                            <li>✓ Pivot to voluntary carbon market (still $50B TAM)</li>
+                            <li>✓ Corporate ESG reporting still mandatory (SEC, EU Taxonomy)</li>
+                            <li>✓ Early customers locked in, need solution regardless</li>
+                            <li>✓ Geographic expansion to regions with existing carbon taxes (CA, UK)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="risk-card">
+                    <div class="risk-header">
+                        <div class="risk-severity high">HIGH</div>
+                        <h3>Competition from Big Tech</h3>
+                    </div>
+                    <div class="risk-content">
+                        <h4>Risk:</h4>
+                        <p>SAP, Microsoft, or Oracle launch competing CBAM module and bundle with existing ERP.</p>
+                        <h4>Likelihood:</h4>
+                        <p>40% — They're watching the space. Microsoft already has Sustainability Cloud.</p>
+                        <h4>Mitigation:</h4>
+                        <ul>
+                            <li>✓ <strong>Speed:</strong> We have 12-18 month head start, lock in 500 customers before they launch</li>
+                            <li>✓ <strong>Specialization:</strong> We're CBAM-native, they're generic ESG. We win on features.</li>
+                            <li>✓ <strong>API Strategy:</strong> Become data layer for SAP/Oracle (partner, not compete)</li>
+                            <li>✓ <strong>Regional Focus:</strong> Turkey/MENA = too small for them, perfect for us</li>
+                            <li>✓ <strong>Acquisition Target:</strong> If they enter, we become attractive acqui-hire</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="risk-card">
+                    <div class="risk-header">
+                        <div class="risk-severity low">LOW</div>
+                        <h3>Blockchain/Crypto Regulation</h3>
+                    </div>
+                    <div class="risk-content">
+                        <h4>Risk:</h4>
+                        <p>Turkey bans or heavily restricts blockchain/tokenization, killing our carbon credit trading.</p>
+                        <h4>Likelihood:</h4>
+                        <p>20% — Turkey skeptical of crypto, but carbon credits ≠ cryptocurrency.</p>
+                        <h4>Mitigation:</h4>
+                        <ul>
+                            <li>✓ Carbon tokens are <strong>asset-backed</strong> (real certificates), not speculative crypto</li>
+                            <li>✓ We operate blockchain infrastructure outside Turkey (Polygon global)</li>
+                            <li>✓ Fallback: Traditional database registry (like Verra), drop blockchain if needed</li>
+                            <li>✓ 70% revenue from SaaS (not dependent on tokenization)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="risk-card">
+                    <div class="risk-header">
+                        <div class="risk-severity medium">MEDIUM</div>
+                        <h3>Slow Customer Adoption</h3>
+                    </div>
+                    <div class="risk-content">
+                        <h4>Risk:</h4>
+                        <p>Turkish exporters procrastinate, don't buy until last minute (Q4 2025).</p>
+                        <h4>Likelihood:</h4>
+                        <p>30% — Turkish businesses often wait until deadline.</p>
+                        <h4>Mitigation:</h4>
+                        <ul>
+                            <li>✓ Panic buying in Q4 2025 = massive spike (we're ready to scale)</li>
+                            <li>✓ LOIs already show early adopters exist (12 signed)</li>
+                            <li>✓ Government/association campaigns will push adoption (TIM, TÜSİAD)</li>
+                            <li>✓ Penalty fear > laziness (firms can't risk EU market exclusion)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="risk-card">
+                    <div class="risk-header">
+                        <div class="risk-severity low">LOW</div>
+                        <h3>Technical Execution Failure</h3>
+                    </div>
+                    <div class="risk-content">
+                        <h4>Risk:</h4>
+                        <p>We can't build the platform on time, or it's buggy/unstable.</p>
+                        <h4>Likelihood:</h4>
+                        <p>10% — Fatih has 18 years experience, already built 70% of MVP.</p>
+                        <h4>Mitigation:</h4>
+                        <ul>
+                            <li>✓ CTO with proven track record (SIEM security, microservices)</li>
+                            <li>✓ Hiring 3 engineers immediately (not relying on solo dev)</li>
+                            <li>✓ Using battle-tested tech stack (.NET, Polygon, Kubernetes)</li>
+                            <li>✓ MVP-first approach (launch with core features, iterate)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="risk-card">
+                    <div class="risk-header">
+                        <div class="risk-severity medium">MEDIUM</div>
+                        <h3>Carbon Price Collapse</h3>
+                    </div>
+                    <div class="risk-content">
+                        <h4>Risk:</h4>
+                        <p>EU carbon prices crash (like 2012-2013), killing trading volume.</p>
+                        <h4>Likelihood:</h4>
+                        <p>20% — Possible if recession + energy crisis eases.</p>
+                        <h4>Mitigation:</h4>
+                        <ul>
+                            <li>✓ 70% revenue from SaaS (fixed), only 30% from trading (variable)</li>
+                            <li>✓ Lower carbon prices = higher demand (firms want cheap offsets)</li>
+                            <li>✓ CBAM creates price floor (firms must comply regardless)</li>
+                            <li>✓ We make money on volume, not price (% commission model)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="risk-summary">
+                <h3>Overall Risk Assessment</h3>
+                <p><strong>Conclusion:</strong> Risks are manageable and typical for early-stage B2B SaaS. The CBAM regulatory driver provides unusual downside protection—this is not optional software, it's compliance infrastructure.</p>
+                <p>Our biggest risk is execution speed, which we control. With seed funding, we hire fast, build fast, and lock in first-mover advantage before big players wake up.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section id="contact" class="contact-cta">
+        <div class="container">
+            <div class="cta-content-invest">
+                <h2>Let's Build the Future of Carbon Markets Together</h2>
+                <p>We're looking for strategic investors who bring more than capital—industry expertise, networks, and long-term vision.</p>
+                
+                <div class="cta-stats-row">
+                    <div class="cta-stat">
+                        <strong>$1.5-2M</strong>
+                        <span>Seed Round</span>
+                    </div>
+                    <div class="cta-stat">
+                        <strong>30-50x</strong>
+                        <span>Target ROI</span>
+                    </div>
+                    <div class="cta-stat">
+                        <strong>5-7 years</strong>
+                        <span>Exit Timeline</span>
+                    </div>
+                </div>
+                
+                <div class="cta-buttons-invest">
+                    <a href="mailto:ercument.erden@lionexia.com" class="btn btn-primary-invest">
+                        📧 Schedule Meeting
+                    </a>
+                    <a href="/" class="btn btn-secondary-invest">
+                        ← Back to Main Site
+                    </a>
+                </div>
+                
+                <div class="contact-details">
+                    <div class="contact-person">
+                        <strong>Ercüment Erden</strong>
+                        <span>Founder & CEO</span>
+                        <a href="mailto:ercument.erden@lionexia.com">ercument.erden@lionexia.com</a>
+                        <a href="https://www.linkedin.com/in/ercumenterden/" target="_blank">LinkedIn Profile →</a>
+                    </div>
+                </div>
+                
+                <div class="confidentiality-note">
+                    <p><small>⚠️ This pitch deck contains confidential information. Please do not share without written permission.</small></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-invest">
+        <div class="container">
+            <div class="footer-content-invest">
+                <div class="footer-logo-invest">
+                    <svg width="40" height="40" viewBox="0 0 40 40">
+                        <circle cx="20" cy="20" r="18" fill="#27ae60" opacity="0.2"/>
+                        <path d="M20 8 L20 32 M12 20 L28 20 M15 15 L25 25 M25 15 L15 25" 
+                              stroke="#27ae60" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span>CarbonEcoMarket</span>
+                </div>
+                <p>World's First Hybrid Carbon Exchange</p>
+                <div class="footer-links-invest">
+                    <a href="/">Main Site</a>
+                    <a href="tr/">Türkçe</a>
+                    <a href="mailto:ercument.erden@lionexia.com">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom-invest">
+                <p>&copy; 2025 CarbonEcoMarket - Confidential Investment Deck</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script src="invest-script.js"></script>
+</body>
+</html>
+```
+
+Devam ediyorum CSS ve JS ile...
+
+## invest-styles.css
+
+```css
+/* ====================================
+   INVESTOR SITE STYLES
+   Professional, VC-focused design
+   ==================================== */
+
+.invest-page {
+    background: #f8f9fa;
+}
+
+/* ============ INVEST NAVIGATION ============ */
+.invest-nav {
+    background: white;
+    border-bottom: 1px solid var(--border);
+}
+
+.invest-nav .nav-brand {
+    flex-direction: row;
+    gap: var(--spacing-sm);
+}
+
+.brand-subtitle {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.nav-actions {
+    display: flex;
+    gap: var(--spacing-sm);
+    align-items: center;
+}
+
+.btn-back {
+    color: var(--text-secondary);
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+.btn-back:hover {
+    background: var(--bg-secondary);
+    color: var(--text-primary);
+}
+
+.lang-switch {
+    padding: 0.5rem 1rem;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all var(--transition-fast);
+}
+
+.lang-switch:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* ============ INVEST HERO ============ */
+.invest-hero {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #27ae60 100%);
+    color: white;
+    padding: var(--spacing-xl) var(--spacing-md) var(--spacing-lg);
+    margin-top: 70px;
+}
+
+.hero-content-invest {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.invest-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.badge-dot {
+    width: 10px;
+    height: 10px;
+    background: #27ae60;
+    border-radius: 50%;
+}
+
+.badge-dot.pulse {
+    animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+    0%, 100% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.2); opacity: 0.7; }
+}
+
+.invest-title {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: var(--spacing-md);
+}
+
+.invest-subtitle {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    opacity: 0.95;
+    margin-bottom: var(--spacing-lg);
+}
+
+.hero-metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.metric-box {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.metric-value {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.metric-label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.metric-detail {
+    font-size: 0.875rem;
+    opacity: 0.8;
+}
+
+.hero-cta-invest {
+    display: flex;
+    gap: var(--spacing-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn-primary-xl,
+.btn-secondary-xl {
+    padding: 1.25rem 3rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.btn-secondary-xl {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-secondary-xl:hover {
+    background: white;
+    color: var(--primary);
+}
+
+/* ============ QUICK STATS ============ */
+.quick-stats {
+    background: white;
+    padding: var(--spacing-lg) var(--spacing-md);
+    box-shadow: 0 -10px 30px rgba(0,0,0,0.1);
+    margin-top: -50px;
+    position: relative;
+    z-index: 10;
+}
+
+.stats-grid-invest {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--spacing-md);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.stat-card {
+    display: flex;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-normal);
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.stat-icon {
+    font-size: 3rem;
+}
+
+.stat-content .stat-number {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+
+.stat-content .stat-text {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.stat-content .stat-detail {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+/* ============ SECTIONS (INVEST) ============ */
+.section-header-invest {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.section-header-invest h2 {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.section-header-invest p {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+}
+
+/* ============ EXECUTIVE SUMMARY ============ */
+.exec-summary {
+    background: white;
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.summary-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: var(--spacing-xl);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.summary-text h3 {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--primary);
+}
+
+.summary-text p {
+    margin-bottom: var(--spacing-md);
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+.summary-highlights {
+    margin-top: var(--spacing-md);
+}
+
+.highlight-item {
+    display: flex;
+    gap: var(--spacing-sm);
+    align-items: flex-start;
+    margin-bottom: var(--spacing-sm);
+    padding: var(--spacing-sm);
+    background: var(--bg-secondary);
+    border-radius: var(--radius-md);
+}
+
+.highlight-item svg {
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.visual-card {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    margin-bottom: var(--spacing-md);
+}
+
+.visual-card h4 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.visual-detail {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.visual-detail:last-child {
+    border-bottom: none;
+}
+
+.detail-label {
+    opacity: 0.9;
+}
+
+.detail-value {
+    font-weight: 700;
+}
+
+.return-item {
+    padding: var(--spacing-sm);
+    background: rgba(255,255,255,0.1);
+    border-radius: var(--radius-md);
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ============ PROBLEM SECTION ============ */
+.problem-invest {
+    background: var(--bg-secondary);
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.problem-grid-invest {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.problem-card-invest {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+}
+
+.problem-card-invest.urgent {
+    border: 3px solid var(--accent);
+    background: linear-gradient(135deg, #fff 0%, #fff5f0 100%);
+}
+
+.card-header {
+    margin-bottom: var(--spacing-md);
+}
+
+.problem-icon-large {
+    font-size: 4rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.problem-card-invest h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.problem-impact {
+    background: var(--bg-secondary);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-md);
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.problem-stat {
+    background: var(--bg-secondary);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-md);
+    text-align: center;
+}
+
+.stat-big {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    display: block;
+}
+
+.stat-small {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    display: block;
+}
+
+.problem-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.problem-list li {
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.problem-list li:before {
+    content: "×";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.problem-quote {
+    max-width: 800px;
+    margin: var(--spacing-xl) auto 0;
+    text-align: center;
+}
+
+.problem-quote blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.6;
+}
+
+.problem-quote cite {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    font-style: normal;
+}
+
+/* ============ SOLUTION ============ */
+.solution-invest {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background: white;
+}
+
+.solution-diagram-large {
+    background: var(--bg-secondary);
+    padding: var(--spacing-xl);
+    border-radius: var(--radius-xl);
+    margin-bottom: var(--spacing-lg);
+}
+
+.diagram-layer {
+    text-align: center;
+    margin-bottom: var(--spacing-lg);
+}
+
+.layer-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.layer-items {
+    display: flex;
+    gap: var(--spacing-sm);
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.layer-item {
+    background: var(--primary);
+    color: white;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+.diagram-users {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.user-segment {
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.segment-icon {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.user-segment span {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.user-segment small {
+    color: var(--text-secondary);
+    font-size: 0.8rem;
+}
+
+.solution-features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.feature-card-invest {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    border-left: 4px solid var(--primary);
+    box-shadow: var(--shadow-sm);
+    transition: all var(--transition-normal);
+}
+
+.feature-card-invest:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-md);
+}
+
+.feature-number {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+}
+
+.feature-tech {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: var(--spacing-sm);
+}
+
+.tech-badge {
+    background: var(--bg-secondary);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+/* ============ BUSINESS MODEL ============ */
+.business-model {
+    background: var(--bg-secondary);
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.revenue-streams {
+    display: grid;
+    gap: var(--spacing-md);
+}
+
+.stream-card {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+}
+
+.stream-header {
+    display: flex;
+    gap: var(--spacing-md);
+    align-items: flex-start;
+    margin-bottom: var(--spacing-md);
+}
+
+.stream-icon {
+    font-size: 3rem;
+}
+
+.stream-header h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.stream-weight {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.stream-pricing {
+    display: flex;
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+    margin: var(--spacing-md) 0;
+}
+
+.pricing-tier {
+    background: var(--bg-secondary);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+    display: flex;
+    flex-direction: column;
+}
+
+.tier-name {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tier-price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.stream-projection {
+    background: var(--bg-secondary);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+    margin: var(--spacing-sm) 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.stream-example {
+    background: #fff3e0;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--accent);
+    margin: var(--spacing-sm) 0;
+}
+
+.stream-margin {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-top: var(--spacing-sm);
+}
+
+.stream-margin strong {
+    color: var(--primary);
+    font-size: 1.125rem;
+}
+
+/* ============ FINANCIALS ============ */
+.financials {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background: white;
+}
+
+.financials-tabs {
+    display: flex;
+    gap: var(--spacing-sm);
+    justify-content: center;
+    margin-bottom: var(--spacing-lg);
+    flex-wrap: wrap;
+}
+
+.fin-tab {
+    padding: 0.75rem 2rem;
+    background: var(--bg-secondary);
+    border: 2px solid transparent;
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.fin-tab:hover {
+    border-color: var(--primary);
+}
+
+.fin-tab.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+}
+
+.fin-content {
+    display: none;
+}
+
+.fin-content.active {
+    display: block;
+    animation: fadeIn 0.5s;
+}
+
+.fin-table-wrapper {
+    overflow-x: auto;
+    margin-bottom: var(--spacing-lg);
+}
+
+.fin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: var(--shadow-sm);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.fin-table thead {
+    background: var(--primary);
+    color: white;
+}
+
+.fin-table th,
+.fin-table td {
+    padding: var(--spacing-sm) var(--spacing-md);
+    text-align: left;
+}
+
+.fin-table th {
+    font-weight: 700;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+}
+
+.fin-table tbody tr {
+    border-bottom: 1px solid var(--border);
+}
+
+.fin-table tbody tr:hover {
+    background: var(--bg-secondary);
+}
+
+.fin-table .total-row {
+    background: #e8f5e9;
+    font-weight: 700;
+}
+
+.fin-table .margin-row {
+    background: #fff3e0;
+    font-weight: 700;
+}
+
+.fin-chart-placeholder {
+    background: var(--bg-secondary);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.chart-bars {
+    display: flex;
+    gap: var(--spacing-md);
+    align-items: flex-end;
+    height: 300px;
+    justify-content: space-around;
+}
+
+.chart-bar {
+    flex: 1;
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark) 100%);
+    border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+    position: relative;
+    min-height: 50px;
+    animation: growBar 1.5s ease-out both;
+}
+
+.bar-label {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: var(--primary);
+}
+
+.chart-labels {
+    display: flex;
+    justify-content: space-around;
+    margin-top: var(--spacing-sm);
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.fin-highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.highlight-box {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.highlight-value {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+
+.highlight-label {
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+/* Unit Economics */
+.unit-econ-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.unit-econ-card {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-md);
+    border-top: 4px solid var(--primary);
+}
+
+.unit-econ-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--primary);
+}
+
+.econ-row {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.econ-row:last-child {
+    border-bottom: none;
+}
+
+.econ-row.highlight-row {
+    background: var(--bg-secondary);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-sm);
+    border: none;
+}
+
+.econ-row strong {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.econ-note {
+    background: #e3f2fd;
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-md);
+    border-left: 3px solid var(--secondary);
+}
+
+/* Cash Flow */
+.cash-flow-summary {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cash-row {
+    background: #e8f5e9 !important;
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.ebitda-row {
+    background: #fff3e0 !important;
+    font-weight: 700;
+}
+
+.cash-highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.cash-highlight-card {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.cash-highlight-card h4 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--primary);
+}
+
+.burn-item {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.insight-list {
+    list-style: none;
+    padding: 0;
+}
+
+.insight-list li {
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--border);
+}
+
+/* ============ MARKET ANALYSIS ============ */
+.market-analysis {
+    background: var(--bg-secondary);
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.market-funnel {
+    max-width: 800px;
+    margin: 0 auto var(--spacing-lg);
+}
+
+.funnel-item {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    margin-bottom: var(--spacing-md);
+    box-shadow: var(--shadow-sm);
+}
+
+.funnel-tam {
+    border-left: 6px solid #27ae60;
+}
+
+.funnel-sam {
+    border-left: 6px solid #2980b9;
+}
+
+.funnel-som {
+    border-left: 6px solid #e67e22;
+}
+
+.funnel-label {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.funnel-value {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.funnel-desc {
+    font-size: 1.125rem;
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.funnel-breakdown {
+    list-style: none;
+    padding: 0;
+    background: var(--bg-secondary);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+}
+
+.funnel-breakdown li {
+    padding: 0.25rem 0;
+    color: var(--text-secondary);
+}
+
+.market-drivers,
+.market-validation {
+    margin-top: var(--spacing-xl);
+}
+
+.drivers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.driver-card {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.driver-icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.driver-card h4 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--primary);
+}
+
+.driver-impact {
+    background: var(--bg-secondary);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-md);
+    font-size: 0.875rem;
+}
+
+.driver-impact strong {
+    color: var(--primary);
+}
+
+/* Validation Calc */
+.validation-calc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+}
+
+.calc-step {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+.step-number {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 0 auto var(--spacing-sm);
+}
+
+.step-content h4 {
+    font-size: 1.125rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.step-value {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin: var(--spacing-sm) 0;
+}
+
+.step-content cite {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    font-style: normal;
+}
+
+.calc-arrow {
+    font-size: 2rem;
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.result-step {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+}
+
+.result-step .step-value {
+    color: white;
+}
+
+.step-result {
+    margin-top: var(--spacing-sm);
+    font-size: 0.95rem;
+}
+
+/* ============ COMPETITION ============ */
+.competition {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background: white;
+}
+
+.comp-table-wrapper {
+    overflow-x: auto;
+    margin-bottom: var(--spacing-lg);
+}
+
+.comp-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: var(--shadow-md);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.comp-table thead {
+    background: var(--bg-dark);
+    color: white;
+}
+
+.comp-table th,
+.comp-table td {
+    padding: var(--spacing-sm) var(--spacing-md);
+    text-align: center;
+}
+
+.feature-col {
+    text-align: left !important;
+    font-weight: 700;
+}
+
+.us-col {
+    background: #e8f5e9;
+}
+
+.company-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.company-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+.company-header small {
+    font-size: 0.7rem;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.comp-table tbody tr {
+    border-bottom: 1px solid var(--border);
+}
+
+.comp-table tbody tr:hover {
+    background: var(--bg-secondary);
+}
+
+.check {
+    color: #27ae60;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.cross {
+    color: #e74c3c;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.partial {
+    color: #f39c12;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.price {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+/* Competitive Moats */
+.moats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
+.moat-card {
+    background: var(--bg-secondary);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+}
+
+.moat-icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.moat-card h4 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--primary);
+}
+
+/* Exits */
+.comp-exits {
+    margin-top: var(--spacing-xl);
+}
+
+.exits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.exit-card {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    border-top: 4px solid var(--primary);
+}
+
+.exit-card h4 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--primary);
+}
+
+.exit-detail {
+    display: flex;
+    justify-content: space-between;
+
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.exit-detail:last-child {
+    border-bottom: none;
+}
+
+.exit-detail strong {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.valuation-implication {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    margin-top: var(--spacing-md);
+}
+
+.valuation-implication h4 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-md);
+}
+
+/* ============ GTM STRATEGY ============ */
+.gtm-strategy {
+    background: var(--bg-secondary);
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.gtm-phases {
+    display: grid;
+    gap: var(--spacing-md);
+}
+
+.phase-card {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+}
+
+.phase-header {
+    margin-bottom: var(--spacing-md);
+}
+
+.phase-number {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-full);
+    font-weight: 700;
+    font-size: 0.875rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.phase-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 0.25rem;
+}
+
+.phase-timeline {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.phase-content h4 {
+    font-size: 1.125rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.phase-tactics {
+    list-style: none;
+    padding: 0;
+    margin-bottom: var(--spacing-md);
+}
+
+.phase-tactics li {
+    padding: var(--spacing-sm) 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.phase-tactics li:before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.phase-tactics strong {
+    color: var(--primary);
+}
+
+.phase-metrics {
+    display: flex;
+    gap: var(--spacing-md);
+    background: var(--bg-secondary);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+}
+
+.phase-metrics .metric {
+    flex: 1;
+    text-align: center;
+}
+
+.phase-metrics strong {
+    color: var(--primary);
+    font-size: 1.25rem;
+}
+
+/* Sales Funnel */
+.sales-funnel {
+    margin-top: var(--spacing-xl);
+}
+
+.funnel-visual {
+    max-width: 600px;
+    margin: var(--spacing-md) auto;
+}
+
+.funnel-stage {
+    background: linear-gradient(90deg, var(--primary) 0%, var(--primary-dark) 100%);
+    color: white;
+    padding: var(--spacing-sm) var(--spacing-md);
+    margin-bottom: 0.5rem;
+    border-radius: var(--radius-md);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all var(--transition-normal);
+}
+
+.funnel-stage:hover {
+    transform: translateX(10px);
+}
+
+.stage-label {
+    font-weight: 700;
+}
+
+.stage-value {
+    font-weight: 600;
+}
+
+.funnel-metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
+.funnel-metric {
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+/* ============ USE OF FUNDS ============ */
+.use-of-funds {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background: white;
+}
+
+.funds-overview {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+    align-items: center;
+}
+
+.funds-chart {
+    text-align: center;
+}
+
+.pie-chart {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: conic-gradient(
+        #27ae60 0% 40%,
+        #2980b9 40% 65%,
+        #e67e22 65% 90%,
+        #95a5a6 90% 100%
+    );
+    margin: 0 auto var(--spacing-md);
+}
+
+.pie-legend {
+    text-align: left;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-bottom: 0.5rem;
+}
+
+.legend-color {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.funds-summary {
+    display: grid;
+    gap: var(--spacing-sm);
+}
+
+.summary-item {
+    background: var(--bg-secondary);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.summary-amount {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+
+.summary-label {
+    color: var(--text-secondary);
+    font-weight: 600;
+}
+
+.summary-total {
+    background: var(--primary);
+    color: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    margin-top: var(--spacing-sm);
+}
+
+.summary-total strong {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.funds-breakdown {
+    display: grid;
+    gap: var(--spacing-md);
+}
+
+.breakdown-category {
+    background: white;
+    border: 2px solid var(--border);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+}
+
+.category-header {
+    background: var(--bg-dark);
+    color: white;
+    padding: var(--spacing-md) var(--spacing-lg);
+    display: flex;
+    gap: var(--spacing-md);
+    align-items: center;
+}
+
+.category-icon {
+    font-size: 2rem;
+}
+
+.category-header h3 {
+    margin: 0;
+}
+
+.category-items {
+    padding: var(--spacing-md) var(--spacing-lg);
+}
+
+.item-row {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.item-row:last-child {
+    border-bottom: none;
+}
+
+.item-name {
+    color: var(--text-secondary);
+}
+
+.item-cost {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.runway-calc {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    margin-top: var(--spacing-xl);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.runway-calc h3 {
+    text-align: center;
+    margin-bottom: var(--spacing-md);
+}
+
+.runway-row {
+    display: flex;
+    justify-content: space-between;
+    padding: var(--spacing-sm) 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.runway-row:last-child {
+    border-bottom: none;
+}
+
+.runway-row.highlight {
+    font-size: 1.5rem;
+    margin-top: var(--spacing-sm);
+    padding-top: var(--spacing-md);
+}
+
+.runway-note {
+    background: rgba(255,255,255,0.1);
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-md);
+}
+
+/* ============ MILESTONES ============ */
+.milestones {
+    background: var(--bg-secondary);
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.milestone-timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto var(--spacing-xl);
+}
+
+.milestone-timeline:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: var(--primary);
+}
+
+.milestone-item {
+    position: relative;
+    padding-left: var(--spacing-xl);
+    margin-bottom: var(--spacing-lg);
+}
+
+.milestone-item:before {
+    content: "";
+    position: absolute;
+    left: -8px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: var(--primary);
+    border: 4px solid white;
+}
+
+.milestone-item.milestone-series-a:before {
+    background: var(--accent);
+    width: 30px;
+    height: 30px;
+    left: -13px;
+}
+
+.milestone-date {
+    font-weight: 700;
+    color: var(--primary);
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    margin-bottom: var(--spacing-sm);
+}
+
+.milestone-content {
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+}
+
+.milestone-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--primary);
+}
+
+.milestone-goals {
+    list-style: none;
+    padding: 0;
+}
+
+.milestone-goals li {
+    padding: 0.5rem 0;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.milestone-goals li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* KPI Dashboard */
+.kpi-dashboard {
+    margin-top: var(--spacing-xl);
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.kpi-card {
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    box-shadow: var(--shadow-sm);
+}
+
+.kpi-label {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.kpi-target {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+
+/* ============ TEAM DETAILED ============ */
+.team-detailed {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background: white;
+}
+
+.founders-detailed {
+    display: grid;
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+.founder-profile {
+    background: var(--bg-secondary);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+}
+
+.profile-header {
+    display: flex;
+    gap: var(--spacing-md);
+    align-items: flex-start;
+    margin-bottom: var(--spacing-md);
+}
+
+.profile-photo-large {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.photo-placeholder-large {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+}
+
+.profile-info h3 {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
+}
+
+.profile-title {
+    font-size: 1.125rem;
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.profile-equity {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.profile-linkedin {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #0077b5;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    background: white;
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+.profile-linkedin:hover {
+    background: #0077b5;
+    color: white;
+}
+
+.profile-content h4 {
+    font-size: 1.25rem;
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+    color: var(--primary);
+}
+
+.profile-content ul {
+    margin-bottom: var(--spacing-md);
+}
+
+.profile-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+/* Advisors Detailed */
+.advisors-detailed {
+    margin-top: var(--spacing-xl);
+}
+
+.advisors-detailed h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: var(--spacing-lg);
+}
+
+.advisor-profile {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.advisor-header {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.advisor-photo-large {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.advisor-info h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.advisor-title {
+    color: var(--primary);
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+.advisor-equity {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.advisor-bio p {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+.advisor-bio strong {
+    color: var(--primary);
+}
+
+/* Hiring Plan */
+.hiring-plan {
+    background: var(--bg-secondary);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    margin-top: var(--spacing-xl);
+}
+
+.hiring-plan h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-md);
+    text-align: center;
+}
+
+.hiring-timeline {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.hire-phase {
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+}
+
+.hire-phase h4 {
+    font-size: 1.125rem;
+    color: var(--primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.hire-phase ul {
+    margin-bottom: var(--spacing-sm);
+}
+
+.hire-total {
+    background: var(--primary);
+    color: white;
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    text-align: center;
+    font-weight: 700;
+}
+
+.team-size-goal {
+    text-align: center;
+    font-size: 1.125rem;
+    background: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+}
+
+.team-size-goal strong {
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+/* ============ TRACTION EVIDENCE ============ */
+.traction-evidence {
+    background: var(--bg-secondary);
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.evidence-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.evidence-card {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+    border-top: 4px solid var(--primary);
+}
+
+.evidence-icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.evidence-stat {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.evidence-card h4 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.evidence-breakdown {
+    background: var(--bg-secondary);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-sm);
+}
+
+.evidence-breakdown ul {
+    margin-top: 0.5rem;
+}
+
+.evidence-value {
+    background: #e8f5e9;
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-sm);
+}
+
+/* ============ INVESTMENT TERMS ============ */
+.investment-terms {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background: white;
+}
+
+.terms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.term-card {
+    background: var(--bg-secondary);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    text-align: center;
+}
+
+.term-card h3 {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.term-value {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.term-card p {
+    font-size: 0.875rem;
+}
+
+/* Cap Table */
+.cap-table {
+    margin-top: var(--spacing-xl);
+}
+
+.cap-table h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.cap-table-grid {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: var(--shadow-md);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+}
+
+.cap-table-grid thead {
+    background: var(--primary);
+    color: white;
+}
+
+.cap-table-grid th,
+.cap-table-grid td {
+    padding: var(--spacing-sm) var(--spacing-md);
+    text-align: left;
+}
+
+.cap-table-grid tbody tr {
+    border-bottom: 1px solid var(--border);
+}
+
+.cap-table-grid .investor-row {
+    background: #e8f5e9;
+    font-weight: 700;
+}
+
+.cap-table-grid .total-row {
+    background: var(--bg-dark);
+    color: white;
+    font-weight: 700;
+}
+
+/* Investor Protections */
+.investor-protections {
+    margin-top: var(--spacing-xl);
+}
+
+.investor-protections h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.protections-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.protection-item {
+    background: var(--bg-secondary);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+}
+
+.protection-item strong {
+    color: var(--primary);
+}
+
+/* ============ EXIT STRATEGY ============ */
+.exit-strategy {
+    background: var(--bg-secondary);
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.exit-scenarios {
+    display: grid;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.scenario-card {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-sm);
+}
+
+.scenario-card.primary-scenario {
+    border: 3px solid var(--primary);
+    background: linear-gradient(135deg, #fff 0%, #e8f5e9 100%);
+}
+
+.scenario-badge {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-full);
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: var(--spacing-sm);
+}
+
+.scenario-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.scenario-valuation {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.scenario-content h4 {
+    font-size: 1.125rem;
+    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+    color: var(--primary);
+}
+
+.scenario-returns {
+    background: var(--primary);
+    color: white;
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    margin-top: var(--spacing-md);
+}
+
+.return-calc {
+    font-size: 1.125rem;
+    line-height: 1.8;
+}
+
+.return-calc strong {
+    font-size: 1.5rem;
+}
+
+.highlight-return {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--primary);
+}
+
+/* Exit Timeline Visual */
+.exit-timeline-visual {
+    margin-top: var(--spacing-xl);
+    text-align: center;
+}
+
+.exit-timeline-visual h3 {
+    margin-bottom: var(--spacing-md);
+}
+
+.timeline-bar {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    height: 80px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+}
+
+.timeline-segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    background: var(--primary);
+}
+
+.timeline-segment.exit-window {
+    background: var(--accent);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.segment-label {
+    font-size: 0.875rem;
+    line-height: 1.4;
+}
+
+/* ============ RISKS ============ */
+.risks {
+    padding: var(--spacing-xl) var(--spacing-md);
+    background: white;
+}
+
+.risks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
+}
+
+.risk-card {
+    background: white;
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    border: 2px solid var(--border);
+}
+
+.risk-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: var(--spacing-md);
+}
+
+.risk-severity {
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.risk-severity.high {
+    background: #ffebee;
+    color: #c62828;
+}
+
+.risk-severity.medium {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.risk-severity.low {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+.risk-header h3 {
+    font-size: 1.25rem;
+    flex: 1;
+}
+
+.risk-content h4 {
+    font-size: 1rem;
+    margin-top: var(--spacing-sm);
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.risk-content ul {
+    margin-top: 0.5rem;
+}
+
+.risk-content li {
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.risk-content li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+.risk-summary {
+    background: var(--bg-secondary);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-xl);
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.risk-summary h3 {
+    font-size: 1.5rem;
+    margin-bottom: var(--spacing-md);
+    text-align: center;
+}
+
+.risk-summary p {
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.7;
+}
+
+/* ============ CONTACT CTA ============ */
+.contact-cta {
+    background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+    color: white;
+    padding: var(--spacing-xl) var(--spacing-md);
+}
+
+.cta-content-invest {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cta-content-invest h2 {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.cta-content-invest > p {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-lg);
+    opacity: 0.95;
+}
+
+.cta-stats-row {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-lg);
+    flex-wrap: wrap;
+}
+
+.cta-stat {
+    text-align: center;
+}
+
+.cta-stat strong {
+    display: block;
+    font-size: 2.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.cta-stat span {
+    font-size: 0.875rem;
+    opacity: 0.9;
+}
+
+.cta-buttons-invest {
+    display: flex;
+    gap: var(--spacing-sm);
+    justify-content: center;
+    margin-bottom: var(--spacing-lg);
+    flex-wrap: wrap;
+}
+
+.btn-primary-invest,
+.btn-secondary-invest {
+    padding: 1.25rem 3rem;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: var(--radius-full);
+}
+
+.btn-primary-invest {
+    background: white;
+    color: var(--primary);
+}
+
+.btn-primary-invest:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-xl);
+}
+
+.btn-secondary-invest {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.btn-secondary-invest:hover {
+    background: white;
+    color: var(--primary);
+}
+
+.contact-details {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--spacing-md);
+}
+
+.contact-person {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-person strong {
+    font-size: 1.25rem;
+}
+
+.contact-person a {
+    color: white;
+    text-decoration: underline;
+}
+
+.confidentiality-note {
+    opacity: 0.8;
+}
+
+/* ============ FOOTER INVEST ============ */
+.footer-invest {
+    background: var(--bg-dark);
+    color: white;
+    padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.footer-content-invest {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto var(--spacing-md);
+}
+
+.footer-logo-invest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+}
+
+.footer-logo-invest span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-content-invest p {
+    color: rgba(255,255,255,0.7);
+    margin-bottom: var(--spacing-md);
+}
+
+.footer-links-invest {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+}
+
+.footer-links-invest a {
+    color: rgba(255,255,255,0.7);
+    transition: color var(--transition-fast);
+}
+
+.footer-links-invest a:hover {
+    color: white;
+}
+
+.footer-bottom-invest {
+    text-align: center;
+    padding-top: var(--spacing-md);
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+.footer-bottom-invest p {
+    color: rgba(255,255,255,0.6);
+    font-size: 0.875rem;
+}
+
+/* ============ RESPONSIVE (INVEST) ============ */
+@media (max-width: 968px) {
+    .summary-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .funds-overview {
+        grid-template-columns: 1fr;
+    }
+    
+    .cash-highlights {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .invest-title {
+        font-size: 2.5rem;
+    }
+    
+    .invest-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-metrics {
+        grid-template-columns: 1fr;
+    }
+    
+    .nav-actions {
+        flex-direction: column;
+    }
+    
+    .section-header-invest h2 {
+        font-size: 2rem;
+    }
+    
+    .cta-content-invest h2 {
+        font-size: 2rem;
+    }
+    
+    .cta-stats-row {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+}
