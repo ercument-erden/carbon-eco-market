@@ -1,3 +1,3 @@
-/invest  /invest/index.html  200
-/*  /index.html  200
-```
+/invest/*  /invest/:splat  200
+/invest    /invest/        200
+/*         /index.html     200
