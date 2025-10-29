@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CarbonEcoMarket Yatırım Sunumu - Seed Round $1.5-2M. Dünyanın ilk hibrit karbon borsası. CBAM uyumlu, blockchain doğrulamalı karbon ticaret platformu.">
+    <meta name="robots" content="noindex, nofollow">
+    <title>CarbonEcoMarket - Yatırım Sunumu | Seed Round $1.5-2M</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="../invest-styles.css">
+
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js" defer></script>
+
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+
+    <!-- Custom scripts -->
+    <script src="/assets/js/charts.js" defer></script>
+    <script src="/assets/js/animations.js" defer></script>
+</head>
+<body class="invest-page">
+
+    <!-- Navigation -->
+    <nav class="navbar invest-nav">
+        <div class="container">
+            <div class="nav-brand">
+                <svg class="logo-icon" width="40" height="40" viewBox="0 0 40 40">
+                    <circle cx="20" cy="20" r="18" fill="#27ae60" opacity="0.1"/>
+                    <path d="M20 8 L20 32 M12 20 L28 20 M15 15 L25 25 M25 15 L15 25"
+                          stroke="#27ae60" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <div>
+                    <span class="brand-name">CarbonEcoMarket</span>
+                    <span class="brand-subtitle">Yatırım Sunumu</span>
+                </div>
+            </div>
+            <div class="nav-actions">
+                <a href="/" class="btn-back">← Ana Sayfa</a>
+                <a href="/invest" class="lang-switch">🇬🇧 English</a>
+                <a href="mailto:ercument.erden@lionexia.com" class="btn btn-primary">İletişim</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="invest-hero">
+        <div class="container">
+            <div class="hero-content-invest">
+                <div class="invest-badge">
+                    <span class="badge-dot pulse"></span>
+                    <span>Seed Round Açık - $1.5-2M</span>
+                </div>
+                <h1 class="invest-title">
+                    Dünyanın İlk<br/>
+                    <span class="gradient-text">Hibrit Karbon Borsası</span>
+                </h1>
+                <p class="invest-subtitle">
+                    CBAM uyumlu, blockchain doğrulamalı, çok taraflı karbon emisyon ticareti pazar yeri.<br/>
+                    Hedef: $70B global karbon pazar, başlangıç: $5B MENA fırsatı.
+                </p>
+                <div class="hero-metrics">
+                    <div class="metric-box">
+                        <div class="metric-value">12</div>
+                        <div class="metric-label">İmzalı LOI</div>
+                        <div class="metric-detail">50K ton/yıl potansiyel</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value">$11M</div>
+                        <div class="metric-label">ARR Hedefi</div>
+                        <div class="metric-detail">3. yıl projeksiyonu</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value">15K+</div>
+                        <div class="metric-label">Hedef Firma</div>
+                        <div class="metric-detail">CBAM'dan etkilenen TR ihracatçılar</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value">Ocak 2026</div>
+                        <div class="metric-label">CBAM Son Tarih</div>
+                        <div class="metric-detail">Zorunlu raporlama başlıyor</div>
+                    </div>
+                </div>
+                <div class="hero-cta-invest">
+                    <a href="#contact" class="btn btn-primary-xl">Görüşme Planlayın</a>
+                    <a href="#deck" class="btn btn-secondary-xl">Tam Sunumu Görün ↓</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Stats -->
+    <section class="quick-stats">
+        <div class="container">
+            <div class="stats-grid-invest">
+                <div class="stat-card">
+                    <div class="stat-icon">💰</div>
+                    <div class="stat-content">
+                        <div class="stat-number">$1.5-2M</div>
+                        <div class="stat-text">Seed Round</div>
+                        <div class="stat-detail">SAFE / Hisse</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">📈</div>
+                    <div class="stat-content">
+                        <div class="stat-number">$9.1M</div>
+                        <div class="stat-text">Post-Money Değerleme</div>
+                        <div class="stat-detail">Series A'ya 24 ay runway</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🎯</div>
+                    <div class="stat-content">
+                        <div class="stat-number">55x ROI</div>
+                        <div class="stat-text">Hedef Getiri</div>
+                        <div class="stat-detail">7. yıl exit senaryosu ($500M)</div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">⚡</div>
+                    <div class="stat-content">
+                        <div class="stat-number">Q1 2026</div>
+                        <div class="stat-text">MVP Launch</div>
+                        <div class="stat-detail">10-20 pilot müşteri</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="deal-visual">
+                <div class="visual-grid">
+                    <div class="visual-card highlight">
+                        <h4>Yatırım Koşulları</h4>
+                        <div class="visual-detail">
+                            <span class="detail-label">Tur Tipi:</span>
+                            <span class="detail-value">SAFE veya Hisse</span>
+                        </div>
+                        <div class="visual-detail">
+                            <span class="detail-label">Değerleme:</span>
+                            <span class="detail-value">$7-9M pre-money</span>
+                        </div>
+                        <div class="visual-detail">
+                            <span class="detail-label">Runway:</span>
+                            <span class="detail-value">Series A'ya 24 ay</span>
+                        </div>
+                    </div>
+
+                    <div class="visual-card">
+                        <h4>Beklenen Getiriler</h4>
+                        <div class="return-item">
+                            <span>3. Yıl (ARR $11M):</span>
+                            <strong>12x ROI</strong>
+                        </div>
+                        <div class="return-item">
+                            <span>5. Yıl (ARR $30M):</span>
+                            <strong>33x ROI</strong>
+                        </div>
+                        <div class="return-item">
+                            <span>7. Yıl Exit ($500M):</span>
+                            <strong>55x ROI</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-invest">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Sorun</span>
+                <h2>Mükemmel Bir Fırtına Geliyor</h2>
+                <p>CBAM 2026 Türk ihracatçıları çok sert vuracak—ve hazırlıksızlar</p>
+            </div>
+            <div class="problem-grid-invest">
+                <div class="problem-card-invest urgent">
+                    <div class="card-header">
+                        <div class="problem-icon-large">⚠️</div>
+                        <h3>CBAM 2026: Zorunlu Raporlama</h3>
+                    </div>
+                    <p>1 Ocak 2026'dan itibaren, çelik, çimento, gübre, elektrik ve alüminyum sektörlerindeki TÜM Türk ihracatçılar AB'ye yapılan her sevkiyat için karbon emisyonlarını raporlamak zorunda—aksi takdirde ceza ve pazar dışlanması riski.</p>
+                    <div class="problem-impact">
+                        <strong>Etki:</strong> 15,000+ firma etkilenecek, risk altında $40B+ yıllık ihracat
+                    </div>
+                </div>
+
+                <div class="problem-card-invest">
+                    <div class="card-header">
+                        <div class="problem-icon-large">💸</div>
+                        <h3>Büyük Mali Risk</h3>
+                    </div>
+                    <p>Uyumsuzluk ağır cezalar anlamına geliyor (ton CO2 başına €50-100) + potansiyel AB pazar yasağı. Orta ölçekli bir çelik ihracatçısı yıllık $2-5M ceza ile karşılaşabilir.</p>
+                    <div class="problem-stat">
+                        <span class="stat-big">$100-500K</span>
+                        <span class="stat-small">Firma başına yıllık uyum maliyeti (mevcut manuel yöntemler)</span>
+                    </div>
+                </div>
+
+                <div class="problem-card-invest">
+                    <div class="card-header">
+                        <div class="problem-icon-large">🔍</div>
+                        <h3>Karmaşık Hesaplama</h3>
+                    </div>
+                    <p>Tüm tedarik zincirinde Scope 1, 2, 3 emisyonlarını hesaplamak manuel olarak neredeyse imkansız. Yüzlerce tedarikçi, enerji kaynağı ve nakliye rotasının izlenmesi gerekiyor.</p>
+                    <ul class="problem-list">
+                        <li>Türkiye'de standart araç yok</li>
+                        <li>Excel bazlı sistemler hatalara açık</li>
+                        <li>ERP/MES entegrasyonu yok</li>
+                        <li>Doğrulama pahalı ($50-100K/denetim)</li>
+                    </ul>
+                </div>
+
+                <div class="problem-card-invest">
+                    <div class="card-header">
+                        <div class="problem-icon-large">🧩</div>
+                        <h3>Parçalı Çözümler</h3>
+                    </div>
+                    <p>Mevcut oyuncular (Verra, Gold Standard, Xpansiv) gönüllü karbon piyasalarına odaklanıyor. Hiçbiri sunmuyor:</p>
+                    <ul class="problem-list">
+                        <li>CBAM'a özel uyumluluk</li>
+                        <li>Blockchain doğrulama</li>
+                        <li>IoT bazlı ölçüm (MRV)</li>
+                        <li>Çok taraflı pazar yeri</li>
+                        <li>Yerel dil/regülasyon desteği</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="problem-quote">
+                <blockquote>
+                    "Üyelerimiz panikleme yaşıyor. Türk ihracatçıların %90'ı CBAM'ın ne olduğunu bile bilmiyor, uyum sağlamayı bırakın. Şimdi dijital bir çözüme ihtiyacımız var."
+                </blockquote>
+                <cite>— Türkiye İhracatçılar Meclisi (TİM), Kasım 2024</cite>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-invest">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Çözüm</span>
+                <h2>Tek Platform, Uçtan Uca Çözüm</h2>
+                <p>CBAM uyumluluk → Karbon ticareti → Blockchain doğrulama</p>
+            </div>
+
+            <div class="solution-overview">
+                <div class="solution-diagram-large">
+                    <div class="diagram-layer">
+                        <div class="layer-title">PLATFORM ÇEKİRDEĞİ</div>
+                        <div class="layer-items">
+                            <div class="layer-item">CBAM Uyum Motoru</div>
+                            <div class="layer-item">Blockchain Registry</div>
+                            <div class="layer-item">AI Fiyatlama Modeli</div>
+                            <div class="layer-item">IoT MRV Sistemi</div>
+                        </div>
+                    </div>
+
+                    <div class="diagram-connections"></div>
+
+                    <div class="diagram-users">
+                        <div class="user-segment">
+                            <div class="segment-icon">🏢</div>
+                            <span>Enterprise</span>
+                            <small>CBAM raporlama</small>
+                        </div>
+                        <div class="user-segment">
+                            <div class="segment-icon">🌾</div>
+                            <span>Çiftçiler</span>
+                            <small>Kredi üretimi</small>
+                        </div>
+                        <div class="user-segment">
+                            <div class="segment-icon">👤</div>
+                            <span>Bireyler</span>
+                            <small>Offset satın alma</small>
+                        </div>
+                        <div class="user-segment">
+                            <div class="segment-icon">💹</div>
+                            <span>Traders</span>
+                            <small>Kredi ticareti</small>
+                        </div>
+                        <div class="user-segment">
+                            <div class="segment-icon">🌱</div>
+                            <span>STK</span>
+                            <small>Doğrulama</small>
+                        </div>
+                        <div class="user-segment">
+                            <div class="segment-icon">⚡</div>
+                            <span>Enerji</span>
+                            <small>Kredi ihracı</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="solution-features-grid">
+                <div class="feature-card-invest">
+                    <div class="feature-number">01</div>
+                    <h3>CBAM Uyum Hub'ı</h3>
+                    <p>Otomatik Scope 1, 2, 3 karbon ayak izi hesaplama. ERP/MES entegrasyonu. AB standartlarında raporlama. Gerçek zamanlı dashboard'lar.</p>
+                    <div class="feature-tech">
+                        <span class="tech-badge">AI-Destekli</span>
+                        <span class="tech-badge">API-First</span>
+                    </div>
+                </div>
+
+                <div class="feature-card-invest">
+                    <div class="feature-number">02</div>
+                    <h3>Blockchain Registry</h3>
+                    <p>Her karbon kredisi Polygon üzerinde tokenize edilir. Değiştirilemez, şeffaf, dolandırıcılık korumalı. Her token = 1 ton CO2 offset, doğrulanmış sertifikalarla desteklenir.</p>
+                    <div class="feature-tech">
+                        <span class="tech-badge">Polygon</span>
+                        <span class="tech-badge">ERC-1155</span>
+                    </div>
+                </div>
+
+                <div class="feature-card-invest">
+                    <div class="feature-number">03</div>
+                    <h3>IoT MRV (Ölçüm, Raporlama, Doğrulama)</h3>
+                    <p>IoT sensörleri toprak karbon tutumunu gerçek zamanlı ölçer. Çiftçiler otomatik olarak kredi kazanır. Düşük maliyetli kurulum için MQTT protokolü.</p>
+                    <div class="feature-tech">
+                        <span class="tech-badge">IoT</span>
+                        <span class="tech-badge">Gerçek-zamanlı</span>
+                    </div>
+                </div>
+
+                <div class="feature-card-invest">
+                    <div class="feature-number">04</div>
+                    <h3>Çok Taraflı Pazar Yeri</h3>
+                    <p>Alıcılar ve satıcılar buluşur. Arz-talep, sektör, coğrafya bazlı AI destekli fiyatlama. %2-8 platform ücreti. Smart contract'lar ile anında ödeme.</p>
+                    <div class="feature-tech">
+                        <span class="tech-badge">Smart Contracts</span>
+                        <span class="tech-badge">7/24 Ticaret</span>
+                    </div>
+                </div>
+
+                <div class="feature-card-invest">
+                    <div class="feature-number">05</div>
+                    <h3>API & Entegrasyonlar</h3>
+                    <p>SAP, Oracle, IFS, Netsis gibi kurumsal sistemlerle seamless entegrasyon. RESTful API, Webhook, OAuth 2.0 desteği.</p>
+                    <div class="feature-tech">
+                        <span class="tech-badge">REST API</span>
+                        <span class="tech-badge">Webhook</span>
+                    </div>
+                </div>
+
+                <div class="feature-card-invest">
+                    <div class="feature-number">06</div>
+                    <h3>Enterprise Security</h3>
+                    <p>SOC 2, ISO 27001 uyumlu güvenlik. Keycloak IAM, role-based access control. Tüm veriler şifrelenmiş (AES-256).</p>
+                    <div class="feature-tech">
+                        <span class="tech-badge">SOC 2</span>
+                        <span class="tech-badge">ISO 27001</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Financial Projections with Chart.js -->
+    <section class="charts-section" style="padding: 5rem 0; background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Finansal Projeksiyonlar</span>
+                <h2>Büyüme Stratejisi ve Hedefler</h2>
+                <p>3 senaryo: Muhafazakar, Temel ve İyimser</p>
+            </div>
+
+            <!-- Scenario Tabs -->
+            <div class="scenario-tabs" style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 3rem; flex-wrap: wrap;">
+                <button class="tab active" data-scenario="base" style="padding: 1rem 2rem; border-radius: 10px; border: 2px solid #27ae60; background: #27ae60; color: white; font-weight: 600; cursor: pointer; transition: all 0.3s;">
+                    Temel Senaryo
+                </button>
+                <button class="tab" data-scenario="conservative" style="padding: 1rem 2rem; border-radius: 10px; border: 2px solid #ddd; background: white; color: #333; font-weight: 600; cursor: pointer; transition: all 0.3s;">
+                    Muhafazakar
+                </button>
+                <button class="tab" data-scenario="optimistic" style="padding: 1rem 2rem; border-radius: 10px; border: 2px solid #ddd; background: white; color: #333; font-weight: 600; cursor: pointer; transition: all 0.3s;">
+                    İyimser
+                </button>
+            </div>
+
+            <!-- Growth Chart -->
+            <div class="chart-container" style="max-width: 1000px; height: 400px; margin: 0 auto 4rem; background: white; padding: 2rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                <canvas id="growthChart"></canvas>
+            </div>
+
+            <!-- Revenue Donut Chart -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 3rem; margin-bottom: 4rem;">
+                <div class="chart-container" style="background: white; padding: 2rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                    <h3 style="text-align: center; margin-bottom: 1.5rem; color: #333;">Gelir Dağılımı (2030)</h3>
+                    <canvas id="revenueChart" style="max-height: 350px;"></canvas>
+                </div>
+
+                <!-- TAM Bar Chart -->
+                <div class="chart-container" style="background: white; padding: 2rem; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                    <h3 style="text-align: center; margin-bottom: 1.5rem; color: #333;">Toplam Erişilebilir Pazar</h3>
+                    <canvas id="tamChart" style="max-height: 350px;"></canvas>
+                </div>
+            </div>
+
+            <!-- Financial Summary Cards -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem;">
+                <div style="background: linear-gradient(135deg, #27ae60, #2ecc71); padding: 2rem; border-radius: 15px; color: white;">
+                    <div style="font-size: 0.9rem; opacity: 0.9; margin-bottom: 0.5rem;">3. Yıl ARR</div>
+                    <div style="font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem;">$11M</div>
+                    <div style="font-size: 0.85rem; opacity: 0.8;">300 kurumsal müşteri</div>
+                </div>
+                <div style="background: linear-gradient(135deg, #3498db, #2980b9); padding: 2rem; border-radius: 15px; color: white;">
+                    <div style="font-size: 0.9rem; opacity: 0.9; margin-bottom: 0.5rem;">5. Yıl ARR</div>
+                    <div style="font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem;">$30M</div>
+                    <div style="font-size: 0.85rem; opacity: 0.8;">1,000+ kurumsal + 100K bireysel</div>
+                </div>
+                <div style="background: linear-gradient(135deg, #e74c3c, #c0392b); padding: 2rem; border-radius: 15px; color: white;">
+                    <div style="font-size: 0.9rem; opacity: 0.9; margin-bottom: 0.5rem;">7. Yıl Değerleme</div>
+                    <div style="font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem;">$500M</div>
+                    <div style="font-size: 0.85rem; opacity: 0.8;">Exit hedefi</div>
+                </div>
+                <div style="background: linear-gradient(135deg, #9b59b6, #8e44ad); padding: 2rem; border-radius: 15px; color: white;">
+                    <div style="font-size: 0.9rem; opacity: 0.9; margin-bottom: 0.5rem;">ROI Hedefi</div>
+                    <div style="font-size: 2.5rem; font-weight: 900; margin-bottom: 0.5rem;">55x</div>
+                    <div style="font-size: 0.85rem; opacity: 0.8;">7 yıllık ufukta</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-invest">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Ekip</span>
+                <h2>Dünya Klasında Takım</h2>
+                <p>100+ yıl birleşik tecrübe: enerji, finans, teknoloji ve karbon piyasaları</p>
+            </div>
+
+            <div class="founders-grid">
+                <div class="founder-card-large">
+                    <div class="founder-photo">
+                        <div class="photo-placeholder-large">EM</div>
+                    </div>
+                    <div class="founder-info">
+                        <h3>Ercüment Erden</h3>
+                        <p class="founder-title">Kurucu & CEO</p>
+                        <p class="founder-bio">Teknoloji girişimcisi ve etik AI savunucusu. Lionexia kurucusu. Uluslararası ticaret ve sürdürülebilirlik alanında derin deneyim.</p>
+                        <div class="founder-highlights">
+                            <div class="highlight-item">
+                                <strong>Lionexia</strong>
+                                <span>Founder</span>
+                            </div>
+                            <div class="highlight-item">
+                                <strong>15+ yıl</strong>
+                                <span>Tech & AI</span>
+                            </div>
+                        </div>
+                        <a href="https://www.linkedin.com/in/ercumenterden/" target="_blank" class="linkedin-btn">
+                            <svg width="20" height="20" viewBox="0 0 20 20">
+                                <path d="M4 3 H16 A1 1 0 0 1 17 4 V16 A1 1 0 0 1 16 17 H4 A1 1 0 0 1 3 16 V4 A1 1 0 0 1 4 3 Z" fill="#0077b5"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+                <div class="founder-card-large">
+                    <div class="founder-photo">
+                        <div class="photo-placeholder-large">FM</div>
+                    </div>
+                    <div class="founder-info">
+                        <h3>Fatih Malyemez</h3>
+                        <p class="founder-title">Co-Founder & CTO</p>
+                        <p class="founder-bio">18 yıl yazılım geliştirme tecrübesi. Microservices, Blockchain ve IoT uzmanı. Enterprise düzeyinde SIEM güvenlik sistemleri deneyimi.</p>
+                        <div class="founder-highlights">
+                            <div class="highlight-item">
+                                <strong>18 yıl</strong>
+                                <span>Software Engineering</span>
+                            </div>
+                            <div class="highlight-item">
+                                <strong>Blockchain</strong>
+                                <span>& IoT Expert</span>
+                            </div>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-item">.NET Core</span>
+                            <span class="tech-item">Kubernetes</span>
+                            <span class="tech-item">Blockchain</span>
+                            <span class="tech-item">IoT/MQTT</span>
+                        </div>
+                        <a href="https://www.linkedin.com/in/fatih-malyemez-86b98a245" target="_blank" class="linkedin-btn">
+                            <svg width="20" height="20" viewBox="0 0 20 20">
+                                <path d="M4 3 H16 A1 1 0 0 1 17 4 V16 A1 1 0 0 1 16 17 H4 A1 1 0 0 1 3 16 V4 A1 1 0 0 1 4 3 Z" fill="#0077b5"/>
+                            </svg>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="advisors-section-invest">
+                <h3>Danışman Kurulu</h3>
+                <p class="advisors-intro">C-level yöneticilerden oluşan güçlü danışman ağı</p>
+
+                <div class="advisors-grid-invest">
+                    <div class="advisor-card-detailed">
+                        <div class="advisor-photo-small">
+                            <div class="photo-placeholder">SG</div>
+                        </div>
+                        <div class="advisor-content">
+                            <h4>Selim Güven</h4>
+                            <p class="advisor-role-primary">Finans & Strateji Danışmanı</p>
+                            <p class="advisor-company-name">ACWA Power</p>
+                            <p class="advisor-position">Country General Manager (TR & AZ)</p>
+                            <ul class="advisor-expertise-list">
+                                <li>25+ yıl enerji ticareti ve finans</li>
+                                <li>Akenerji CCO (Akkök Holding)</li>
+                                <li>Karbon piyasaları derin bilgisi</li>
+                            </ul>
+                            <a href="https://www.linkedin.com/in/selim-güven" target="_blank" class="advisor-linkedin-sm">
+                                LinkedIn →
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="advisor-card-detailed">
+                        <div class="advisor-photo-small">
+                            <div class="photo-placeholder">HY</div>
+                        </div>
+                        <div class="advisor-content">
+                            <h4>Hüseyin Yeğin</h4>
+                            <p class="advisor-role-primary">Operasyon & Büyüme Danışmanı</p>
+                            <p class="advisor-company-name">Borusan EnBW</p>
+                            <p class="advisor-position">Executive Board Member</p>
+                            <ul class="advisor-expertise-list">
+                                <li>20+ yıl yenilenebilir enerji</li>
+                                <li>Karbon piyasaları ve CBAM uzmanlığı</li>
+                                <li>Operasyonel ölçeklendirme tecrübesi</li>
+                            </ul>
+                            <a href="https://www.linkedin.com/in/hüseyin-yeğin" target="_blank" class="advisor-linkedin-sm">
+                                LinkedIn →
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="advisor-card-detailed">
+                        <div class="advisor-photo-small">
+                            <div class="photo-placeholder">İS</div>
+                        </div>
+                        <div class="advisor-content">
+                            <h4>Ilgın Sözen</h4>
+                            <p class="advisor-role-primary">Regülasyon & İletişim Danışmanı</p>
+                            <p class="advisor-company-name">ÇEKÜL Vakfı</p>
+                            <p class="advisor-position">Genel Sekreter Yardımcısı</p>
+                            <ul class="advisor-expertise-list">
+                                <li>Co2Nötr kurucusu</li>
+                                <li>Karbon teknolojileri ve AI</li>
+                                <li>STK ve regülatör networkleri</li>
+                            </ul>
+                            <a href="https://www.linkedin.com/in/ilgın-sözen" target="_blank" class="advisor-linkedin-sm">
+                                LinkedIn →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Traction -->
+    <section class="traction-invest">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">İlerleme</span>
+                <h2>Şimdiye Kadar Neler Yaptık</h2>
+            </div>
+
+            <div class="traction-timeline">
+                <div class="traction-item completed">
+                    <div class="traction-marker">✅</div>
+                    <div class="traction-content">
+                        <h4>12 Letter of Intent</h4>
+                        <p>Kimya, çimento ve otomotiv sektörlerinden toplam 50K ton/yıl potansiyel pipeline. İlk pilot müşteriler belirlendi.</p>
+                        <div class="traction-meta">Q4 2024 - Tamamlandı</div>
+                    </div>
+                </div>
+
+                <div class="traction-item completed">
+                    <div class="traction-marker">✅</div>
+                    <div class="traction-content">
+                        <h4>3 C-Level Danışman</h4>
+                        <p>ACWA Power, Borusan EnBW ve ÇEKÜL'den executive level danışmanlar katıldı. Güçlü sektör ağı kuruldu.</p>
+                        <div class="traction-meta">Q1 2025 - Tamamlandı</div>
+                    </div>
+                </div>
+
+                <div class="traction-item completed">
+                    <div class="traction-marker">✅</div>
+                    <div class="traction-content">
+                        <h4>CBAM Framework Hazır</h4>
+                        <p>AB standartlarında compliance modülleri geliştirildi. Scope 1, 2, 3 hesaplama algoritmaları test edildi.</p>
+                        <div class="traction-meta">Q1 2025 - Tamamlandı</div>
+                    </div>
+                </div>
+
+                <div class="traction-item progress">
+                    <div class="traction-marker">⏳</div>
+                    <div class="traction-content">
+                        <h4>MVP Geliştirmede</h4>
+                        <p>Q1 2026 launch hedefiyle aktif development. Blockchain testnet çalışıyor, IoT sensör testleri devam ediyor.</p>
+                        <div class="traction-meta">Q2 2025 - Devam Ediyor</div>
+                    </div>
+                </div>
+
+                <div class="traction-item progress">
+                    <div class="traction-marker">⏳</div>
+                    <div class="traction-content">
+                        <h4>Pilot Pipeline: 25+ Firma</h4>
+                        <p>Seed sonrası 10-20 pilot müşteri hedefi. Detaylı görüşmeler ve PoC planları yapılıyor.</p>
+                        <div class="traction-meta">Q3 2025 - Planlandı</div>
+                    </div>
+                </div>
+
+                <div class="traction-item progress">
+                    <div class="traction-marker">⏳</div>
+                    <div class="traction-content">
+                        <h4>Blockchain Testnet</h4>
+                        <p>Polygon üzerinde token registry test edildi. Smart contract'lar hazır, mainnet launch için bekleniyor.</p>
+                        <div class="traction-meta">Q2 2025 - Test Aşamasında</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-invest">
+        <div class="container">
+            <div class="cta-content-invest">
+                <h2>Bize Katılın</h2>
+                <p>Dünyanın karbon borsası olma yolculuğumuzda yerinizi alın.</p>
+                <p style="margin-top: 1rem; font-size: 1.1rem; opacity: 0.9;">Seed round: $1.5-2M | Pre-money: $7-9M | 24 ay runway</p>
+                <div class="cta-buttons-large">
+                    <a href="mailto:ercument.erden@lionexia.com" class="btn btn-primary-xl">Görüşme Planlayın</a>
+                    <a href="/" class="btn btn-secondary-xl">Ana Siteye Dön</a>
+                </div>
+                <div class="contact-info-grid">
+                    <div class="contact-item-invest">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="4" width="20" height="16" rx="2"/>
+                            <path d="M2 8 L12 14 L22 8"/>
+                        </svg>
+                        <div>
+                            <div style="font-weight: 600; margin-bottom: 0.25rem;">Email</div>
+                            <a href="mailto:ercument.erden@lionexia.com">ercument.erden@lionexia.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item-invest">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10C21 17 12 23 12 23 S3 17 3 10 A9 9 0 0 1 21 10 Z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                        <div>
+                            <div style="font-weight: 600; margin-bottom: 0.25rem;">Lokasyon</div>
+                            <span>İstanbul, Türkiye | Londra, UK</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer invest-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 40 40">
+                            <circle cx="20" cy="20" r="18" fill="#27ae60" opacity="0.2"/>
+                            <path d="M20 8 L20 32 M12 20 L28 20 M15 15 L25 25 M25 15 L15 25"
+                                  stroke="#27ae60" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <span>CarbonEcoMarket</span>
+                    </div>
+                    <p>Dünyanın ilk hibrit karbon borsası</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Şirket</h4>
+                        <a href="/about">Hakkımızda</a>
+                        <a href="/#team">Ekip</a>
+                        <a href="/invest/tr">Yatırımcılar</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>İletişim</h4>
+                        <a href="mailto:ercument.erden@lionexia.com">Email</a>
+                        <a href="https://www.linkedin.com/in/ercumenterden/">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CarbonEcoMarket - Tüm hakları saklıdır</p>
+                <p style="font-size: 0.85rem; opacity: 0.7; margin-top: 0.5rem;">Bu doküman gizlidir ve yalnızca davet edilen yatırımcılar içindir.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Scenario tab switching
+        document.querySelectorAll('.scenario-tabs .tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.scenario-tabs .tab').forEach(t => {
+                    t.classList.remove('active');
+                    t.style.background = 'white';
+                    t.style.color = '#333';
+                });
+                this.classList.add('active');
+                this.style.background = '#27ae60';
+                this.style.color = 'white';
+
+                // Update charts based on scenario
+                const scenario = this.dataset.scenario;
+                console.log('Scenario changed to:', scenario);
+                // Charts will be updated by charts.js
+            });
+        });
+    </script>
+</body>
+</html>

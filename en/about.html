@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CarbonEcoMarket - Our Vision, Mission and Values. Building the world's carbon exchange.">
+    <title>About Us | CarbonEcoMarket</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- Three.js for 3D globe -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+
+    <!-- GSAP for animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
+
+    <!-- Particles.js for background -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+
+    <!-- Custom scripts -->
+    <script src="/assets/js/globe-3d.js" defer></script>
+    <script src="/assets/js/animations.js" defer></script>
+    <script src="/assets/js/particles-config.js" defer></script>
+
+    <style>
+        /* Gradient animated text */
+        .gradient-text-animated {
+            background: linear-gradient(45deg, #27ae60, #2ecc71, #3498db, #27ae60);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradientShift 3s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+        }
+
+        /* Fade in scale */
+        @keyframes fadeInScale {
+            from { opacity: 0; transform: scale(0.8) translateY(30px); }
+            to { opacity: 1; transform: scale(1) translateY(0); }
+        }
+
+        /* Bounce */
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0) translateX(-50%); }
+            40% { transform: translateY(-20px) translateX(-50%); }
+            60% { transform: translateY(-10px) translateX(-50%); }
+        }
+
+        /* Icon float */
+        @keyframes iconFloat {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            25% { transform: translateY(-10px) rotate(-5deg); }
+            75% { transform: translateY(-10px) rotate(5deg); }
+        }
+
+        /* 3D Hero Section */
+        .hero-3d {
+            position: relative;
+            height: 100vh;
+            overflow: hidden;
+            background: radial-gradient(ellipse at center, #0f2027 0%, #203a43 50%, #2c5364 100%);
+        }
+
+        .hero-3d #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        .hero-3d #globe-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 2;
+        }
+
+        .hero-3d .hero-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            padding-top: 25vh;
+        }
+
+        .hero-3d h1 {
+            font-size: 4rem;
+            font-weight: 900;
+            color: white;
+            animation: fadeInScale 1.5s;
+            margin-bottom: 2rem;
+        }
+
+        .hero-3d .subtitle {
+            font-size: 1.5rem;
+            color: rgba(255,255,255,0.8);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .scroll-indicator {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+            color: white;
+            text-align: center;
+            z-index: 10;
+        }
+
+        .scroll-indicator span {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .scroll-indicator div {
+            font-size: 2rem;
+        }
+
+        /* Vision Section */
+        .vision-section {
+            padding: 8rem 0;
+            background: linear-gradient(180deg, #0f2027 0%, #1a1a2e 100%);
+        }
+
+        .vision-section h2 {
+            text-align: center;
+            font-size: 3rem;
+            color: white;
+            margin-bottom: 4rem;
+        }
+
+        .vision-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .vision-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0.05));
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.2);
+            border-radius: 30px;
+            padding: 3rem;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+            transform-style: preserve-3d;
+        }
+
+        .vision-card:hover {
+            border-radius: 50px;
+            transform: translateY(-20px) rotateX(5deg);
+            box-shadow: 0 40px 100px rgba(39,174,96,0.3);
+        }
+
+        .vision-card .card-icon {
+            font-size: 5rem;
+            animation: iconFloat 3s infinite;
+            margin-bottom: 1.5rem;
+        }
+
+        .vision-card h3 {
+            color: #27ae60;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .vision-card p {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* Stats Section */
+        .stats-3d-section {
+            padding: 6rem 0;
+            background: #0f2027;
+        }
+
+        .stats-3d-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .stat-card-3d {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(20px);
+            padding: 2rem;
+            border-radius: 20px;
+            text-align: center;
+            transform-style: preserve-3d;
+            perspective: 1000px;
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(39,174,96,0.3);
+        }
+
+        .stat-card-3d:hover {
+            transform: translateY(-20px) rotateX(10deg) rotateY(5deg);
+            box-shadow: 0 40px 80px rgba(39,174,96,0.4);
+        }
+
+        .stat-card-3d .stat-value {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #27ae60;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-card-3d .stat-label {
+            font-size: 1rem;
+            color: rgba(255,255,255,0.8);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Timeline Section */
+        .timeline-section {
+            padding: 8rem 0;
+            background: linear-gradient(180deg, #0f2027 0%, #203a43 100%);
+        }
+
+        .timeline-section h2 {
+            text-align: center;
+            font-size: 3rem;
+            color: white;
+            margin-bottom: 4rem;
+        }
+
+        .timeline {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: linear-gradient(180deg, #27ae60, #2ecc71);
+            transform: translateX(-50%);
+        }
+
+        .timeline-item {
+            margin-bottom: 3rem;
+            position: relative;
+            padding-left: 60%;
+        }
+
+        .timeline-item:nth-child(even) {
+            padding-left: 0;
+            padding-right: 60%;
+            text-align: right;
+        }
+
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #27ae60;
+            transform: translateX(-50%);
+            box-shadow: 0 0 20px rgba(39,174,96,0.8);
+        }
+
+        .timeline-item h3 {
+            color: #27ae60;
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-item p {
+            color: rgba(255,255,255,0.8);
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .hero-3d h1 {
+                font-size: 2.5rem;
+            }
+
+            .vision-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                padding-left: 60px;
+                padding-right: 0;
+                text-align: left;
+            }
+
+            .timeline-item::before {
+                left: 20px;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <svg class="logo-icon" width="40" height="40" viewBox="0 0 40 40">
+                    <circle cx="20" cy="20" r="18" fill="#27ae60" opacity="0.1"/>
+                    <path d="M20 8 L20 32 M12 20 L28 20 M15 15 L25 25 M25 15 L15 25"
+                          stroke="#27ae60" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <span class="brand-name">CarbonEcoMarket</span>
+            </div>
+            <div class="nav-links">
+                <a href="/en">Home</a>
+                <a href="/en#platform">Platform</a>
+                <a href="/en#team">Team</a>
+                <a href="/invest">Investors</a>
+                <a href="/about" class="lang-switch">🇹🇷 Türkçe</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with 3D Globe -->
+    <section class="hero-3d">
+        <!-- Particles background -->
+        <div id="particles-js"></div>
+
+        <!-- 3D Globe -->
+        <div id="globe-container"></div>
+
+        <!-- Content overlay -->
+        <div class="hero-content">
+            <h1 class="animated-text">
+                <span class="gradient-text-animated">About Us</span>
+            </h1>
+            <p class="subtitle">
+                Our vision, mission and values on the path to becoming the world's carbon exchange
+            </p>
+        </div>
+
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div>↓</div>
+        </div>
+    </section>
+
+    <!-- Vision, Mission, Values Section -->
+    <section class="vision-section">
+        <div class="container">
+            <h2>Vision, Mission & Values</h2>
+
+            <div class="vision-grid">
+                <div class="vision-card morph reveal-scale">
+                    <div class="card-icon">🌍</div>
+                    <h3>Our Vision</h3>
+                    <p>To become the world's largest hybrid carbon exchange by 2030. Build a $2.5 trillion sustainable ecosystem and transition 2 billion people to carbon neutral living.</p>
+                </div>
+
+                <div class="vision-card morph reveal-scale">
+                    <div class="card-icon">💚</div>
+                    <h3>Our Mission</h3>
+                    <p>Democratize the carbon market by combining Blockchain, IoT and AI technologies. Provide accessible, transparent and reliable carbon trading opportunities to businesses of all sizes and individuals.</p>
+                </div>
+
+                <div class="vision-card morph reveal-scale">
+                    <div class="card-icon">🚀</div>
+                    <h3>Our Values</h3>
+                    <p><strong>Transparency:</strong> Every transaction is traceable on blockchain<br/>
+                    <strong>Sustainability:</strong> Create real environmental impact<br/>
+                    <strong>Innovation:</strong> Push boundaries with technology<br/>
+                    <strong>Inclusivity:</strong> Open platform for everyone</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Floating Stats -->
+    <section class="stats-3d-section">
+        <div class="container">
+            <div class="stats-3d-container">
+                <div class="stat-card-3d">
+                    <span class="stat-value counter" data-target="1500000000000">$0</span>
+                    <span class="stat-label">Global TAM 2030</span>
+                </div>
+                <div class="stat-card-3d">
+                    <span class="stat-value counter" data-target="70000000000">$0B</span>
+                    <span class="stat-label">Carbon Market Size</span>
+                </div>
+                <div class="stat-card-3d">
+                    <span class="stat-value counter" data-target="15000">0</span>
+                    <span class="stat-label">Target Firms</span>
+                </div>
+                <div class="stat-card-3d">
+                    <span class="stat-value counter" data-target="2000000000">0</span>
+                    <span class="stat-label">Target Users 2030</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section">
+        <div class="container">
+            <h2>Our Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>2024 Q4 - Foundation</h3>
+                    <p>CarbonEcoMarket idea was born. World-class advisory board formed: C-level executives from ACWA Power, Borusan EnBW and ÇEKÜL.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2025 Q1 - LOI Collection</h3>
+                    <p>Collected 12 Letters of Intent from chemical, cement and automotive sectors. Total 50K ton/year potential pipeline.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2025 Q2 - MVP Development</h3>
+                    <p>CBAM-compliant platform MVP is being completed. Blockchain registry working on testnet. Seed round initiated.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2025 Q4 - Pilot Launch</h3>
+                    <p>Platform goes live with first 10-20 pilot customers. Real carbon emission data collection begins.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2026 Q1 - CBAM Mandatory</h3>
+                    <p>EU CBAM obligation begins. 15,000+ Turkish exporters must report. Major growth opportunity.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>2027-2030 - Scaling</h3>
+                    <p>Expansion to MENA region. Farmer and individual user modules go live. 6-sided ecosystem operating at full capacity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Join Us</h2>
+                <p>Take your place in our journey to become the world's carbon exchange.</p>
+                <div class="cta-buttons">
+                    <a href="mailto:info@carbonecomarket.com" class="btn btn-primary-large">Get In Touch</a>
+                    <a href="/invest" class="btn btn-secondary-large">Investment Opportunities</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 40 40">
+                            <circle cx="20" cy="20" r="18" fill="#27ae60" opacity="0.2"/>
+                            <path d="M20 8 L20 32 M12 20 L28 20 M15 15 L25 25 M25 15 L15 25"
+                                  stroke="#27ae60" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                        <span>CarbonEcoMarket</span>
+                    </div>
+                    <p>World's first hybrid carbon exchange</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Platform</h4>
+                        <a href="/en#platform">Enterprise</a>
+                        <a href="/en#platform">Farmers</a>
+                        <a href="/en#platform">Individuals</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <a href="/en/about">About</a>
+                        <a href="/en#team">Team</a>
+                        <a href="/invest">Investors</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <a href="mailto:ercument.erden@lionexia.com">Email</a>
+                        <a href="https://www.linkedin.com/in/ercumenterden/">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CarbonEcoMarket - All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.mobile-menu-btn')?.addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
