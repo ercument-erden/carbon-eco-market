@@ -1,3 +1,13 @@
+# Subdomain routing for invest.carbonecomarket.com
+https://invest.carbonecomarket.com/*  /invest/:splat  200
+
+# Language routing
+/en  /en/index.html  200
+/invest/en  /invest/index.html  200
+
+# Investor site routing
 /invest/*  /invest/:splat  200
 /invest    /invest/        200
-/*         /index.html     200
+
+# Default (fallback)
+/*  /index.html  200
