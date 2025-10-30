@@ -399,11 +399,318 @@ function initSparklines() {
   });
 }
 
+// Use of Funds Pie Chart
+function initUseOfFundsChart() {
+  const canvas = document.getElementById('useOfFundsChart');
+  if (!canvas || typeof Chart === 'undefined') return;
+
+  const ctx = canvas.getContext('2d');
+
+  new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: [
+        'Product Development',
+        'Sales & Marketing',
+        'Team Expansion',
+        'Operations & Legal'
+      ],
+      datasets: [{
+        data: [40, 30, 20, 10],
+        backgroundColor: [
+          'rgba(39, 174, 96, 0.9)',
+          'rgba(52, 152, 219, 0.9)',
+          'rgba(241, 196, 15, 0.9)',
+          'rgba(155, 89, 182, 0.9)'
+        ],
+        borderWidth: 3,
+        borderColor: '#fff',
+        hoverOffset: 20
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: {
+            color: '#333',
+            font: { size: 15, weight: '700', family: 'Inter' },
+            padding: 20,
+            usePointStyle: true,
+            pointStyle: 'circle',
+            generateLabels: function(chart) {
+              const data = chart.data;
+              if (data.labels.length && data.datasets.length) {
+                return data.labels.map(function(label, i) {
+                  const value = data.datasets[0].data[i];
+                  const percent = value + '%';
+                  return {
+                    text: label + ': ' + percent,
+                    fillStyle: data.datasets[0].backgroundColor[i],
+                    hidden: false,
+                    index: i
+                  };
+                });
+              }
+              return [];
+            }
+          }
+        },
+        tooltip: {
+          backgroundColor: 'rgba(0, 0, 0, 0.9)',
+          titleFont: { size: 16, weight: '700' },
+          bodyFont: { size: 14 },
+          padding: 15,
+          cornerRadius: 10,
+          callbacks: {
+            label: function(context) {
+              const label = context.label || '';
+              const value = context.parsed;
+              const amount = (value / 100) * 2000000; // $2M total
+              return [`${label}: ${value}%`, `$${(amount/1000).toFixed(0)}K`];
+            }
+          }
+        }
+      },
+      animation: {
+        animateRotate: true,
+        animateScale: true,
+        duration: 2000,
+        easing: 'easeInOutQuart'
+      }
+    }
+  });
+}
+
+// Market Opportunity Funnel Chart
+function initMarketOpportunityChart() {
+  const canvas = document.getElementById('marketOpportunityChart');
+  if (!canvas || typeof Chart === 'undefined') return;
+
+  const ctx = canvas.getContext('2d');
+
+  new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Global TAM\n$70B', 'MENA SAM\n$5B', '2030 Target\n$400M'],
+      datasets: [{
+        label: 'Market Size',
+        data: [70, 5, 0.4],
+        backgroundColor: [
+          'rgba(39, 174, 96, 0.3)',
+          'rgba(39, 174, 96, 0.6)',
+          'rgba(39, 174, 96, 0.9)'
+        ],
+        borderColor: 'rgba(39, 174, 96, 1)',
+        borderWidth: 2,
+        borderRadius: 8
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        x: {
+          beginAtZero: true,
+          type: 'logarithmic',
+          ticks: {
+            callback: value => '$' + value + 'B',
+            font: { size: 12, weight: '600' }
+          }
+        },
+        y: {
+          ticks: {
+            font: { size: 14, weight: '700' }
+          }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: context => `$${context.parsed.x}B market size`
+          }
+        }
+      }
+    }
+  });
+}
+
+// Unicorn Trajectory Chart - Shows path to $1B+ valuation
+function initUnicornTrajectoryChart() {
+  const canvas = document.getElementById('unicornTrajectoryChart');
+  if (!canvas || typeof Chart === 'undefined') return;
+
+  const ctx = canvas.getContext('2d');
+
+  // Create gradient
+  const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+  gradient.addColorStop(0, 'rgba(241, 196, 15, 0.3)');
+  gradient.addColorStop(1, 'rgba(241, 196, 15, 0.0)');
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ['Seed\n2025', 'Series A\n2027', 'Series B\n2029', 'Series C\n2031', 'Unicorn\n2032'],
+      datasets: [{
+        label: 'Valuation Trajectory',
+        data: [9, 75, 300, 750, 1200],
+        borderColor: '#f1c40f',
+        backgroundColor: gradient,
+        borderWidth: 4,
+        tension: 0.4,
+        pointRadius: 10,
+        pointHoverRadius: 14,
+        pointBackgroundColor: ['#27ae60', '#3498db', '#9b59b6', '#e74c3c', '#f1c40f'],
+        pointBorderColor: '#fff',
+        pointBorderWidth: 3,
+        fill: true
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: {
+            callback: value => '$' + value + 'M',
+            font: { size: 13, weight: '600' },
+            color: '#2c3e50'
+          },
+          grid: {
+            color: 'rgba(0, 0, 0, 0.05)'
+          }
+        },
+        x: {
+          ticks: {
+            font: { size: 13, weight: '700' },
+            color: '#2c3e50'
+          },
+          grid: {
+            display: false
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          display: false
+        },
+        tooltip: {
+          backgroundColor: 'rgba(0, 0, 0, 0.9)',
+          titleFont: { size: 16, weight: '700' },
+          bodyFont: { size: 14 },
+          padding: 15,
+          cornerRadius: 10,
+          callbacks: {
+            label: context => {
+              const value = context.parsed.y;
+              if (value >= 1000) {
+                return `Valuation: $${(value/1000).toFixed(1)}B`;
+              }
+              return `Valuation: $${value}M`;
+            }
+          }
+        }
+      },
+      animation: {
+        duration: 3000,
+        easing: 'easeInOutQuart'
+      }
+    }
+  });
+}
+
+// ARR Growth Chart with milestones
+function initARRGrowthChart() {
+  const canvas = document.getElementById('arrGrowthChart');
+  if (!canvas || typeof Chart === 'undefined') return;
+
+  const ctx = canvas.getContext('2d');
+
+  const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+  gradient.addColorStop(0, 'rgba(39, 174, 96, 0.4)');
+  gradient.addColorStop(1, 'rgba(39, 174, 96, 0.0)');
+
+  new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: ['2026', '2027', '2028', '2029', '2030', '2031', '2032'],
+      datasets: [{
+        label: 'ARR Growth',
+        data: [0.25, 3, 11, 30, 65, 120, 200],
+        borderColor: '#27ae60',
+        backgroundColor: gradient,
+        borderWidth: 4,
+        tension: 0.4,
+        pointRadius: 8,
+        pointHoverRadius: 12,
+        pointBackgroundColor: '#fff',
+        pointBorderColor: '#27ae60',
+        pointBorderWidth: 3,
+        fill: true
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      scales: {
+        y: {
+          beginAtZero: true,
+          ticks: {
+            callback: value => '$' + value + 'M',
+            font: { size: 13, weight: '600' },
+            color: '#2c3e50'
+          },
+          grid: {
+            color: 'rgba(0, 0, 0, 0.05)'
+          }
+        },
+        x: {
+          ticks: {
+            font: { size: 13, weight: '700' },
+            color: '#2c3e50'
+          },
+          grid: {
+            display: false
+          }
+        }
+      },
+      plugins: {
+        legend: {
+          display: false
+        },
+        tooltip: {
+          backgroundColor: 'rgba(0, 0, 0, 0.9)',
+          titleFont: { size: 16, weight: '700' },
+          bodyFont: { size: 14 },
+          padding: 15,
+          cornerRadius: 10,
+          callbacks: {
+            label: context => `ARR: $${context.parsed.y}M`
+          }
+        }
+      },
+      animation: {
+        duration: 3000,
+        easing: 'easeInOutQuart'
+      }
+    }
+  });
+}
+
 // Initialize all charts
 function initCharts() {
   initRevenueChart();
   initGrowthChart();
   initTAMChart();
+  initUseOfFundsChart();
+  initMarketOpportunityChart();
+  initUnicornTrajectoryChart();
+  initARRGrowthChart();
   initScenarioSwitch();
   initSparklines();
 }
