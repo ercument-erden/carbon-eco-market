@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CarbonEcoMarket Investment - Seed $1.5-2M. 55x ROI in 7 years. Visual investor deck.">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Invest | CarbonEcoMarket - $1.5M Seed Round</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: #0a0e27; color: white; overflow-x: hidden; }
+
+        /* HERO - GIANT CHART */
+        .hero-chart { height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; background: linear-gradient(135deg, rgba(10,14,39,0.95) 0%, rgba(26,31,58,0.95) 100%), url('/images/hero-invest.svg') center/cover no-repeat; background-blend-mode: overlay; }
+        .hero-chart-container { width: 90%; max-width: 1400px; height: 80vh; position: relative; }
+        .hero-overlay { position: absolute; top: 5%; left: 5%; z-index: 10; }
+        .hero-overlay h1 { font-size: 4rem; font-weight: 900; margin-bottom: 1rem; background: linear-gradient(135deg, #27ae60, #2ecc71, #3498db); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .hero-overlay .tagline { font-size: 1.5rem; opacity: 0.9; margin-bottom: 2rem; }
+        .cta-big { display: inline-block; padding: 1.5rem 3rem; background: linear-gradient(135deg, #27ae60, #2ecc71); border-radius: 50px; font-size: 1.25rem; font-weight: 700; text-decoration: none; color: white; transition: transform 0.3s; }
+        .cta-big:hover { transform: scale(1.05); }
+
+        /* VISUAL STATS */
+        .visual-stats { padding: 5rem 2rem; background: #0f1229; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; max-width: 1400px; margin: 0 auto; }
+        .stat-visual { background: linear-gradient(135deg, rgba(39,174,96,0.1), rgba(52,152,219,0.1)); border: 2px solid rgba(39,174,96,0.3); border-radius: 30px; padding: 3rem 2rem; text-align: center; transition: all 0.3s; position: relative; overflow: hidden; }
+        .stat-visual::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(39,174,96,0.1) 0%, transparent 70%); animation: pulse 3s infinite; }
+        @keyframes pulse { 0%, 100% { transform: scale(1); opacity: 0.5; } 50% { transform: scale(1.1); opacity: 0.8; } }
+        .stat-visual:hover { transform: translateY(-10px) scale(1.05); border-color: #27ae60; box-shadow: 0 20px 60px rgba(39,174,96,0.3); }
+        .stat-icon { font-size: 5rem; margin-bottom: 1rem; display: block; }
+        .stat-number { font-size: 3.5rem; font-weight: 900; color: #27ae60; margin-bottom: 0.5rem; }
+        .stat-label { font-size: 1.1rem; opacity: 0.8; }
+
+        /* ROI CALCULATOR */
+        .roi-calculator { padding: 6rem 2rem; background: linear-gradient(135deg, #1a1f3a 0%, #0a0e27 100%); }
+        .calculator-container { max-width: 1200px; margin: 0 auto; background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); border-radius: 40px; padding: 4rem; border: 2px solid rgba(39,174,96,0.2); }
+        .calculator-title { font-size: 3rem; text-align: center; margin-bottom: 3rem; background: linear-gradient(135deg, #27ae60, #3498db); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .calculator-input { margin-bottom: 2rem; }
+        .calculator-input label { display: block; font-size: 1.2rem; margin-bottom: 1rem; opacity: 0.9; }
+        .slider { width: 100%; height: 15px; border-radius: 10px; background: rgba(255,255,255,0.1); outline: none; -webkit-appearance: none; }
+        .slider::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 30px; height: 30px; border-radius: 50%; background: linear-gradient(135deg, #27ae60, #2ecc71); cursor: pointer; box-shadow: 0 5px 20px rgba(39,174,96,0.5); }
+        .roi-result { margin-top: 3rem; text-align: center; padding: 3rem; background: linear-gradient(135deg, rgba(39,174,96,0.2), rgba(52,152,219,0.2)); border-radius: 30px; border: 2px solid #27ae60; }
+        .roi-result-value { font-size: 5rem; font-weight: 900; color: #27ae60; margin-bottom: 1rem; }
+        .roi-result-label { font-size: 1.5rem; opacity: 0.9; }
+
+        /* VISUAL TIMELINE */
+        .visual-timeline { padding: 6rem 2rem; background: #0f1229; position: relative; }
+        .timeline-title { font-size: 3rem; text-align: center; margin-bottom: 4rem; }
+        .timeline-wrapper { max-width: 1400px; margin: 0 auto; position: relative; }
+        .timeline-line { position: absolute; left: 50%; top: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, #27ae60, #3498db); transform: translateX(-50%); }
+        .timeline-item { display: grid; grid-template-columns: 1fr 100px 1fr; gap: 2rem; margin-bottom: 4rem; align-items: center; }
+        .timeline-content { background: linear-gradient(135deg, rgba(39,174,96,0.1), rgba(52,152,219,0.1)); border: 2px solid rgba(39,174,96,0.3); border-radius: 30px; padding: 2rem; transition: all 0.3s; }
+        .timeline-content:hover { transform: scale(1.05); border-color: #27ae60; box-shadow: 0 20px 60px rgba(39,174,96,0.3); }
+        .timeline-year { font-size: 2.5rem; font-weight: 900; color: #27ae60; text-align: center; background: rgba(39,174,96,0.2); width: 100px; height: 100px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 4px solid #27ae60; position: relative; z-index: 2; }
+        .timeline-icon { font-size: 4rem; margin-bottom: 1rem; }
+        .timeline-metric { font-size: 2rem; font-weight: 700; color: #27ae60; margin-bottom: 0.5rem; }
+
+        /* VIDEO */
+        .video-section { padding: 6rem 2rem; background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%); }
+        .video-container { max-width: 1200px; margin: 0 auto; border-radius: 40px; overflow: hidden; box-shadow: 0 30px 90px rgba(0,0,0,0.5); }
+        .video-placeholder { aspect-ratio: 16/9; background: linear-gradient(135deg, #27ae60, #3498db); display: flex; align-items: center; justify-content: center; font-size: 2rem; }
+        .play-button { width: 120px; height: 120px; border-radius: 50%; background: rgba(255,255,255,0.9); display: flex; align-items: center; justify-content: center; font-size: 3rem; color: #27ae60; cursor: pointer; transition: all 0.3s; }
+        .play-button:hover { transform: scale(1.1); background: white; }
+
+        /* INFOGRAPHIC */
+        .infographic-section { padding: 6rem 2rem; background: #0f1229; }
+        .infographic-grid { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem; }
+        .infographic-card { background: linear-gradient(135deg, rgba(39,174,96,0.1), rgba(52,152,219,0.1)); border: 2px solid rgba(39,174,96,0.3); border-radius: 30px; padding: 3rem; text-align: center; transition: all 0.3s; }
+        .infographic-card:hover { transform: translateY(-10px) rotate(-2deg); border-color: #27ae60; box-shadow: 0 30px 90px rgba(39,174,96,0.4); }
+        .infographic-visual { width: 200px; height: 200px; margin: 0 auto 2rem; border-radius: 50%; background: linear-gradient(135deg, #27ae60, #3498db); display: flex; align-items: center; justify-content: center; font-size: 5rem; position: relative; }
+        .infographic-visual::before { content: ''; position: absolute; inset: 10px; border-radius: 50%; background: #0f1229; }
+        .infographic-visual span { position: relative; z-index: 2; }
+        .infographic-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 1rem; color: #27ae60; }
+
+        /* TEAM */
+        .team-visual { padding: 6rem 2rem; background: linear-gradient(135deg, #1a1f3a 0%, #0a0e27 100%); }
+        .team-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 3rem; }
+        .team-card { text-align: center; transition: all 0.3s; }
+        .team-card:hover { transform: translateY(-20px); }
+        .team-avatar { width: 200px; height: 200px; margin: 0 auto 1.5rem; border-radius: 50%; background: linear-gradient(135deg, #27ae60, #3498db); display: flex; align-items: center; justify-content: center; font-size: 4rem; font-weight: 900; color: white; border: 5px solid rgba(39,174,96,0.3); position: relative; overflow: hidden; }
+        .team-avatar::before { content: ''; position: absolute; inset: 5px; border-radius: 50%; background: rgba(10,14,39,0.8); }
+        .team-avatar span { position: relative; z-index: 2; }
+        .team-name { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .team-role { font-size: 1rem; color: #27ae60; margin-bottom: 1rem; }
+
+        /* CTA */
+        .cta-final { padding: 8rem 2rem; background: linear-gradient(135deg, #27ae60, #2ecc71, #3498db); text-align: center; }
+        .cta-final h2 { font-size: 4rem; font-weight: 900; margin-bottom: 2rem; }
+        .cta-final p { font-size: 1.5rem; margin-bottom: 3rem; opacity: 0.9; }
+        .cta-buttons { display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap; }
+        .btn-giant { padding: 2rem 4rem; font-size: 1.5rem; font-weight: 700; border-radius: 50px; text-decoration: none; transition: all 0.3s; }
+        .btn-primary { background: white; color: #27ae60; }
+        .btn-primary:hover { transform: scale(1.05); box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+        .btn-secondary { background: transparent; color: white; border: 3px solid white; }
+        .btn-secondary:hover { background: white; color: #27ae60; }
+
+        @media (max-width: 768px) {
+            .hero-overlay h1 { font-size: 2.5rem; }
+            .timeline-item { grid-template-columns: 1fr; gap: 1rem; }
+            .timeline-line { display: none; }
+            .stat-number { font-size: 2.5rem; }
+            .roi-result-value { font-size: 3rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HERO - GIANT GROWTH CHART -->
+    <section class="hero-chart">
+        <div class="hero-chart-container">
+            <div class="hero-overlay">
+                <h1>$1.5M → $500M</h1>
+                <p class="tagline">55x ROI in 7 Years</p>
+                <a href="#calculator" class="cta-big">Calculate Your Returns</a>
+            </div>
+            <canvas id="heroChart"></canvas>
+        </div>
+    </section>
+
+    <!-- VISUAL STATS -->
+    <section class="visual-stats">
+        <div class="stats-grid">
+            <div class="stat-visual">
+                <span class="stat-icon">💰</span>
+                <div class="stat-number">$1.5-2M</div>
+                <div class="stat-label">Seed Round</div>
+            </div>
+            <div class="stat-visual">
+                <span class="stat-icon">📈</span>
+                <div class="stat-number">$9.1M</div>
+                <div class="stat-label">Valuation</div>
+            </div>
+            <div class="stat-visual">
+                <span class="stat-icon">🎯</span>
+                <div class="stat-number">55x</div>
+                <div class="stat-label">Target ROI</div>
+            </div>
+            <div class="stat-visual">
+                <span class="stat-icon">⏰</span>
+                <div class="stat-number">24mo</div>
+                <div class="stat-label">To Series A</div>
+            </div>
+            <div class="stat-visual">
+                <span class="stat-icon">🌍</span>
+                <div class="stat-number">$70B</div>
+                <div class="stat-label">Global Market</div>
+            </div>
+            <div class="stat-visual">
+                <span class="stat-icon">🏢</span>
+                <div class="stat-number">15K+</div>
+                <div class="stat-label">Target Firms</div>
+            </div>
+            <div class="stat-visual">
+                <span class="stat-icon">✅</span>
+                <div class="stat-number">12</div>
+                <div class="stat-label">LOIs Signed</div>
+            </div>
+            <div class="stat-visual">
+                <span class="stat-icon">🚀</span>
+                <div class="stat-number">Q1 2026</div>
+                <div class="stat-label">Launch</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE ROI CALCULATOR -->
+    <section class="roi-calculator" id="calculator">
+        <div class="calculator-container">
+            <h2 class="calculator-title">Calculate Your Returns</h2>
+
+            <div class="calculator-input">
+                <label>Investment Amount: $<span id="investAmount">100000</span></label>
+                <input type="range" class="slider" id="investSlider" min="25000" max="500000" value="100000" step="25000">
+            </div>
+
+            <div class="calculator-input">
+                <label>Exit Year: <span id="exitYear">5</span></label>
+                <input type="range" class="slider" id="yearSlider" min="3" max="7" value="5" step="1">
+            </div>
+
+            <div class="roi-result">
+                <div class="roi-result-value" id="roiValue">$3.3M</div>
+                <div class="roi-result-label">Projected Return (<span id="roiMultiple">33</span>x)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VISUAL TIMELINE -->
+    <section class="visual-timeline">
+        <h2 class="timeline-title">Growth Trajectory</h2>
+        <div class="timeline-wrapper">
+            <div class="timeline-line"></div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">🌱</div>
+                    <div class="timeline-metric">$0 ARR</div>
+                    <p>MVP Launch</p>
+                </div>
+                <div class="timeline-year">2025</div>
+                <div></div>
+            </div>
+
+            <div class="timeline-item">
+                <div></div>
+                <div class="timeline-year">2026</div>
+                <div class="timeline-content">
+                    <div class="timeline-icon">📊</div>
+                    <div class="timeline-metric">$2M ARR</div>
+                    <p>CBAM Mandatory</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">🚀</div>
+                    <div class="timeline-metric">$11M ARR</div>
+                    <p>Series A</p>
+                </div>
+                <div class="timeline-year">2027</div>
+                <div></div>
+            </div>
+
+            <div class="timeline-item">
+                <div></div>
+                <div class="timeline-year">2029</div>
+                <div class="timeline-content">
+                    <div class="timeline-icon">💎</div>
+                    <div class="timeline-metric">$30M ARR</div>
+                    <p>Series B</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <div class="timeline-icon">🏆</div>
+                    <div class="timeline-metric">$500M</div>
+                    <p>Exit Target</p>
+                </div>
+                <div class="timeline-year">2032</div>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section class="video-section">
+        <div class="video-container">
+            <div class="video-placeholder">
+                <div class="play-button">▶</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFOGRAPHIC -->
+    <section class="infographic-section">
+        <div class="infographic-grid">
+            <div class="infographic-card">
+                <div class="infographic-visual">
+                    <span>⚠️</span>
+                </div>
+                <h3 class="infographic-title">15K+ Firms</h3>
+                <p>Affected by CBAM 2026</p>
+            </div>
+
+            <div class="infographic-card">
+                <div class="infographic-visual">
+                    <span>🔗</span>
+                </div>
+                <h3 class="infographic-title">Blockchain</h3>
+                <p>Verified Carbon Credits</p>
+            </div>
+
+            <div class="infographic-card">
+                <div class="infographic-visual">
+                    <span>🤖</span>
+                </div>
+                <h3 class="infographic-title">AI-Powered</h3>
+                <p>Auto Carbon Calculation</p>
+            </div>
+
+            <div class="infographic-card">
+                <div class="infographic-visual">
+                    <span>📱</span>
+                </div>
+                <h3 class="infographic-title">6-Sided</h3>
+                <p>Multi-Stakeholder Platform</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="team-visual">
+        <h2 class="timeline-title" style="margin-bottom: 4rem;">World-Class Team</h2>
+        <div class="team-grid">
+            <div class="team-card">
+                <div class="team-avatar">
+                    <span>EM</span>
+                </div>
+                <div class="team-name">Ercüment Erden</div>
+                <div class="team-role">Founder & CEO</div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar">
+                    <span>FM</span>
+                </div>
+                <div class="team-name">Fatih Malyemez</div>
+                <div class="team-role">Co-Founder & CTO</div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar">
+                    <span>SG</span>
+                </div>
+                <div class="team-name">Selim Güven</div>
+                <div class="team-role">Advisor (ACWA Power)</div>
+            </div>
+
+            <div class="team-card">
+                <div class="team-avatar">
+                    <span>HY</span>
+                </div>
+                <div class="team-name">Hüseyin Yeğin</div>
+                <div class="team-role">Advisor (Borusan EnBW)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="cta-final">
+        <h2>Join the Carbon Revolution</h2>
+        <p>Invest in the world's first hybrid carbon exchange</p>
+        <div class="cta-buttons">
+            <a href="mailto:ercument.erden@lionexia.com" class="btn-giant btn-primary">Schedule Meeting</a>
+            <a href="/" class="btn-giant btn-secondary">Learn More</a>
+        </div>
+    </section>
+
+    <script>
+        // HERO CHART
+        const ctx = document.getElementById('heroChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['2025', '2026', '2027', '2028', '2029', '2030', '2031', '2032'],
+                datasets: [{
+                    label: 'Company Valuation',
+                    data: [9.1, 30, 80, 150, 250, 350, 450, 500],
+                    borderColor: '#27ae60',
+                    backgroundColor: 'rgba(39, 174, 96, 0.1)',
+                    borderWidth: 4,
+                    fill: true,
+                    tension: 0.4,
+                    pointRadius: 8,
+                    pointHoverRadius: 12,
+                    pointBackgroundColor: '#27ae60',
+                    pointBorderColor: '#fff',
+                    pointBorderWidth: 3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false },
+                    tooltip: {
+                        backgroundColor: 'rgba(0,0,0,0.8)',
+                        titleColor: '#fff',
+                        bodyColor: '#27ae60',
+                        titleFont: { size: 16 },
+                        bodyFont: { size: 20, weight: 'bold' },
+                        padding: 15,
+                        displayColors: false,
+                        callbacks: {
+                            label: function(context) {
+                                return '$' + context.parsed.y + 'M';
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: {
+                            color: '#fff',
+                            font: { size: 14 },
+                            callback: function(value) {
+                                return '$' + value + 'M';
+                            }
+                        }
+                    },
+                    x: {
+                        grid: { color: 'rgba(255,255,255,0.1)' },
+                        ticks: {
+                            color: '#fff',
+                            font: { size: 14 }
+                        }
+                    }
+                }
+            }
+        });
+
+        // ROI CALCULATOR
+        const investSlider = document.getElementById('investSlider');
+        const yearSlider = document.getElementById('yearSlider');
+        const investAmount = document.getElementById('investAmount');
+        const exitYear = document.getElementById('exitYear');
+        const roiValue = document.getElementById('roiValue');
+        const roiMultiple = document.getElementById('roiMultiple');
+
+        const roiMultiples = { 3: 12, 4: 20, 5: 33, 6: 45, 7: 55 };
+
+        function calculateROI() {
+            const investment = parseInt(investSlider.value);
+            const year = parseInt(yearSlider.value);
+            const multiple = roiMultiples[year];
+            const returns = investment * multiple;
+
+            investAmount.textContent = investment.toLocaleString();
+            exitYear.textContent = year;
+            roiValue.textContent = '$' + (returns / 1000000).toFixed(1) + 'M';
+            roiMultiple.textContent = multiple;
+        }
+
+        investSlider.addEventListener('input', calculateROI);
+        yearSlider.addEventListener('input', calculateROI);
+
+        // GSAP ANIMATIONS
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.utils.toArray('.stat-visual').forEach(stat => {
+            gsap.from(stat, {
+                scrollTrigger: { trigger: stat, start: 'top 80%' },
+                y: 50, opacity: 0, duration: 0.6, ease: 'power2.out'
+            });
+        });
+
+        gsap.utils.toArray('.timeline-item').forEach(item => {
+            gsap.from(item, {
+                scrollTrigger: { trigger: item, start: 'top 80%' },
+                x: -100, opacity: 0, duration: 0.8, ease: 'power2.out'
+            });
+        });
+    </script>
+</body>
+</html>
