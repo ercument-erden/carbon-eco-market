@@ -1,0 +1,40 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="businessGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34495e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#businessGrad)"/>
+
+  <!-- Bar Chart -->
+  <g opacity="0.8">
+    <rect x="100" y="400" width="80" height="150" fill="#27ae60" rx="5"/>
+    <rect x="220" y="350" width="80" height="200" fill="#2ecc71" rx="5"/>
+    <rect x="340" y="300" width="80" height="250" fill="#27ae60" rx="5"/>
+    <rect x="460" y="250" width="80" height="300" fill="#2ecc71" rx="5"/>
+    <rect x="580" y="180" width="80" height="370" fill="#3498db" rx="5"/>
+  </g>
+
+  <!-- Grid lines -->
+  <line x1="80" y1="200" x2="700" y2="200" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="80" y1="300" x2="700" y2="300" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="80" y1="400" x2="700" y2="400" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+  <line x1="80" y1="500" x2="700" y2="500" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+
+  <!-- Axis -->
+  <line x1="80" y1="550" x2="700" y2="550" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <line x1="80" y1="150" x2="80" y2="550" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+
+  <!-- Growth arrow -->
+  <path d="M 120 120 L 660 60" stroke="#f39c12" stroke-width="4" stroke-dasharray="10,5" opacity="0.6"/>
+  <polygon points="660,60 640,50 650,70" fill="#f39c12" opacity="0.6"/>
+
+  <!-- Dollar signs -->
+  <text x="140" y="390" text-anchor="middle" fill="white" font-size="24" font-weight="bold" opacity="0.5">$</text>
+  <text x="260" y="340" text-anchor="middle" fill="white" font-size="28" font-weight="bold" opacity="0.6">$</text>
+  <text x="380" y="290" text-anchor="middle" fill="white" font-size="32" font-weight="bold" opacity="0.7">$</text>
+  <text x="500" y="240" text-anchor="middle" fill="white" font-size="36" font-weight="bold" opacity="0.8">$</text>
+  <text x="620" y="170" text-anchor="middle" fill="white" font-size="40" font-weight="bold" opacity="0.9">$</text>
+</svg>
