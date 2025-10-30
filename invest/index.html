@@ -676,6 +676,336 @@
         </div>
     </section>
 
+    <!-- Use of Funds Section -->
+    <section class="use-of-funds-section" style="padding: 6rem 2rem; background: linear-gradient(135deg, #0f1229 0%, #1a1f3a 100%);">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Kaynak Kullanımı</span>
+                <h2>$2M Seed Round Dağılımı</h2>
+                <p>18 aylık runway - Agresif büyüme ve pazar penetrasyonu</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; max-width: 1200px; margin: 0 auto;">
+                <!-- Pie Chart -->
+                <div style="background: white; padding: 3rem; border-radius: 30px; box-shadow: 0 20px 60px rgba(0,0,0,0.3);">
+                    <canvas id="useOfFundsChart" style="max-height: 400px;"></canvas>
+                </div>
+
+                <!-- Breakdown -->
+                <div style="display: flex; flex-direction: column; gap: 2rem;">
+                    <div style="background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); border: 2px solid rgba(39,174,96,0.3); border-radius: 20px; padding: 2rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <div style="width: 20px; height: 20px; background: #27ae60; border-radius: 4px;"></div>
+                                <h4 style="margin: 0; color: white;">Product Development</h4>
+                            </div>
+                            <span style="font-size: 1.5rem; font-weight: 900; color: #27ae60;">$800K</span>
+                        </div>
+                        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255,255,255,0.8); font-size: 0.95rem;">
+                            <li>• MVP to Production (Q1-Q2 2026)</li>
+                            <li>• IoT MRV System</li>
+                            <li>• Blockchain Registry</li>
+                            <li>• Mobile Apps (iOS/Android)</li>
+                        </ul>
+                    </div>
+
+                    <div style="background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); border: 2px solid rgba(52,152,219,0.3); border-radius: 20px; padding: 2rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <div style="width: 20px; height: 20px; background: #3498db; border-radius: 4px;"></div>
+                                <h4 style="margin: 0; color: white;">Sales & Marketing</h4>
+                            </div>
+                            <span style="font-size: 1.5rem; font-weight: 900; color: #3498db;">$600K</span>
+                        </div>
+                        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255,255,255,0.8); font-size: 0.95rem;">
+                            <li>• 10 pilot müşteri (LOI → Paid)</li>
+                            <li>• Digital marketing & content</li>
+                            <li>• Event sponsorships (CBAM)</li>
+                            <li>• Partnership development</li>
+                        </ul>
+                    </div>
+
+                    <div style="background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); border: 2px solid rgba(241,196,15,0.3); border-radius: 20px; padding: 2rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <div style="width: 20px; height: 20px; background: #f1c40f; border-radius: 4px;"></div>
+                                <h4 style="margin: 0; color: white;">Team Expansion</h4>
+                            </div>
+                            <span style="font-size: 1.5rem; font-weight: 900; color: #f1c40f;">$400K</span>
+                        </div>
+                        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255,255,255,0.8); font-size: 0.95rem;">
+                            <li>• 2 Senior Developers</li>
+                            <li>• 1 Sales Lead</li>
+                            <li>• 1 Customer Success Manager</li>
+                            <li>• 1 Compliance Expert</li>
+                        </ul>
+                    </div>
+
+                    <div style="background: rgba(255,255,255,0.05); backdrop-filter: blur(20px); border: 2px solid rgba(155,89,182,0.3); border-radius: 20px; padding: 2rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                            <div style="display: flex; align-items: center; gap: 1rem;">
+                                <div style="width: 20px; height: 20px; background: #9b59b6; border-radius: 4px;"></div>
+                                <h4 style="margin: 0; color: white;">Operations & Legal</h4>
+                            </div>
+                            <span style="font-size: 1.5rem; font-weight: 900; color: #9b59b6;">$200K</span>
+                        </div>
+                        <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255,255,255,0.8); font-size: 0.95rem;">
+                            <li>• Office & infrastructure</li>
+                            <li>• Legal & compliance</li>
+                            <li>• Cloud infrastructure (AWS)</li>
+                            <li>• Security & audits</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Unit Economics Section -->
+    <section class="unit-economics-section" style="padding: 6rem 2rem; background: #0a0e27;">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Unit Economics</span>
+                <h2>Güçlü Finansal Fundamentals</h2>
+                <p>Proven business model with strong unit economics</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 3rem; margin-top: 3rem;">
+                <div style="background: linear-gradient(135deg, rgba(39,174,96,0.1), rgba(46,204,113,0.05)); border: 2px solid #27ae60; border-radius: 25px; padding: 3rem; text-align: center;">
+                    <div style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 2px;">CAC (Customer Acquisition Cost)</div>
+                    <div style="font-size: 4rem; font-weight: 900; color: #27ae60; margin-bottom: 0.5rem;">$2K</div>
+                    <div style="font-size: 0.95rem; color: rgba(255,255,255,0.6);">Per enterprise customer</div>
+                </div>
+
+                <div style="background: linear-gradient(135deg, rgba(52,152,219,0.1), rgba(41,128,185,0.05)); border: 2px solid #3498db; border-radius: 25px; padding: 3rem; text-align: center;">
+                    <div style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 2px;">LTV (Lifetime Value)</div>
+                    <div style="font-size: 4rem; font-weight: 900; color: #3498db; margin-bottom: 0.5rem;">$50K</div>
+                    <div style="font-size: 0.95rem; color: rgba(255,255,255,0.6);">5-year contract value</div>
+                </div>
+
+                <div style="background: linear-gradient(135deg, rgba(241,196,15,0.1), rgba(243,156,18,0.05)); border: 2px solid #f1c40f; border-radius: 25px; padding: 3rem; text-align: center;">
+                    <div style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 2px;">LTV / CAC Ratio</div>
+                    <div style="font-size: 4rem; font-weight: 900; color: #f1c40f; margin-bottom: 0.5rem;">25x</div>
+                    <div style="font-size: 0.95rem; color: rgba(255,255,255,0.6);">World-class ratio (>3x)</div>
+                </div>
+
+                <div style="background: linear-gradient(135deg, rgba(155,89,182,0.1), rgba(142,68,173,0.05)); border: 2px solid #9b59b6; border-radius: 25px; padding: 3rem; text-align: center;">
+                    <div style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 2px;">Payback Period</div>
+                    <div style="font-size: 4rem; font-weight: 900; color: #9b59b6; margin-bottom: 0.5rem;">6 mo</div>
+                    <div style="font-size: 0.95rem; color: rgba(255,255,255,0.6);">Fast capital recovery</div>
+                </div>
+            </div>
+
+            <div style="margin-top: 4rem; padding: 3rem; background: rgba(39,174,96,0.1); border-radius: 25px; border: 2px solid rgba(39,174,96,0.3);">
+                <h3 style="text-align: center; margin-bottom: 2rem; color: white;">Revenue Model</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                    <div>
+                        <div style="color: #27ae60; font-size: 1.8rem; font-weight: 700; margin-bottom: 0.5rem;">Enterprise SaaS</div>
+                        <div style="color: rgba(255,255,255,0.8);">$500-30K/month per firm</div>
+                        <div style="color: rgba(255,255,255,0.6); font-size: 0.9rem; margin-top: 0.5rem;">Tiered pricing based on emissions volume</div>
+                    </div>
+                    <div>
+                        <div style="color: #3498db; font-size: 1.8rem; font-weight: 700; margin-bottom: 0.5rem;">Transaction Fees</div>
+                        <div style="color: rgba(255,255,255,0.8);">2-8% per carbon credit trade</div>
+                        <div style="color: rgba(255,255,255,0.6); font-size: 0.9rem; margin-top: 0.5rem;">Marketplace commission</div>
+                    </div>
+                    <div>
+                        <div style="color: #f1c40f; font-size: 1.8rem; font-weight: 700; margin-bottom: 0.5rem;">MRV Services</div>
+                        <div style="color: rgba(255,255,255,0.8);">$50-100/month per sensor</div>
+                        <div style="color: rgba(255,255,255,0.6); font-size: 0.9rem; margin-top: 0.5rem;">IoT device rental + data</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Milestones Section -->
+    <section class="milestones-section" style="padding: 6rem 2rem; background: linear-gradient(135deg, #1a1f3a 0%, #0f1229 100%);">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Roadmap</span>
+                <h2>18-Month Milestones</h2>
+                <p>Clear execution plan with measurable KPIs</p>
+            </div>
+
+            <div style="max-width: 1000px; margin: 0 auto; position: relative;">
+                <div style="position: absolute; left: 50%; top: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, #27ae60, #3498db, #9b59b6); transform: translateX(-50%);"></div>
+
+                <div style="display: flex; flex-direction: column; gap: 3rem; position: relative;">
+                    <!-- Q1 2026 -->
+                    <div style="display: grid; grid-template-columns: 1fr 100px 1fr; gap: 2rem; align-items: center;">
+                        <div style="text-align: right;">
+                            <div style="background: rgba(39,174,96,0.2); border: 2px solid #27ae60; border-radius: 20px; padding: 2rem;">
+                                <h4 style="color: #27ae60; margin-bottom: 1rem;">Q1 2026</h4>
+                                <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255,255,255,0.9); text-align: left;">
+                                    <li>✓ MVP Launch</li>
+                                    <li>✓ 5 Pilot Customers</li>
+                                    <li>✓ CBAM Module Complete</li>
+                                    <li>✓ $250K ARR</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="width: 100px; height: 100px; background: #27ae60; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 900; font-size: 1.2rem; border: 5px solid #0f1229; position: relative; z-index: 2;">Q1</div>
+                        <div></div>
+                    </div>
+
+                    <!-- Q2 2026 -->
+                    <div style="display: grid; grid-template-columns: 1fr 100px 1fr; gap: 2rem; align-items: center;">
+                        <div></div>
+                        <div style="width: 100px; height: 100px; background: #3498db; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 900; font-size: 1.2rem; border: 5px solid #0f1229; position: relative; z-index: 2;">Q2</div>
+                        <div>
+                            <div style="background: rgba(52,152,219,0.2); border: 2px solid #3498db; border-radius: 20px; padding: 2rem;">
+                                <h4 style="color: #3498db; margin-bottom: 1rem;">Q2 2026</h4>
+                                <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255,255,255,0.9);">
+                                    <li>→ 20 Paying Customers</li>
+                                    <li>→ Blockchain Launch</li>
+                                    <li>→ $1M ARR</li>
+                                    <li>→ Break-even MRR</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Q3-Q4 2026 -->
+                    <div style="display: grid; grid-template-columns: 1fr 100px 1fr; gap: 2rem; align-items: center;">
+                        <div style="text-align: right;">
+                            <div style="background: rgba(241,196,15,0.2); border: 2px solid #f1c40f; border-radius: 20px; padding: 2rem;">
+                                <h4 style="color: #f1c40f; margin-bottom: 1rem;">Q3-Q4 2026</h4>
+                                <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255,255,255,0.9); text-align: left;">
+                                    <li>→ 50+ Enterprise Customers</li>
+                                    <li>→ IoT MRV Rollout</li>
+                                    <li>→ $3M ARR</li>
+                                    <li>→ Series A Ready</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="width: 100px; height: 100px; background: #f1c40f; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #0f1229; font-weight: 900; font-size: 1.2rem; border: 5px solid #0f1229; position: relative; z-index: 2;">Q3-Q4</div>
+                        <div></div>
+                    </div>
+
+                    <!-- 2027 -->
+                    <div style="display: grid; grid-template-columns: 1fr 100px 1fr; gap: 2rem; align-items: center;">
+                        <div></div>
+                        <div style="width: 100px; height: 100px; background: #9b59b6; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: 900; font-size: 1.2rem; border: 5px solid #0f1229; position: relative; z-index: 2;">2027</div>
+                        <div>
+                            <div style="background: rgba(155,89,182,0.2); border: 2px solid #9b59b6; border-radius: 20px; padding: 2rem;">
+                                <h4 style="color: #9b59b6; margin-bottom: 1rem;">2027 Goals</h4>
+                                <ul style="list-style: none; padding: 0; margin: 0; color: rgba(255,255,255,0.9);">
+                                    <li>→ 300+ Customers</li>
+                                    <li>→ MENA Expansion</li>
+                                    <li>→ $11M ARR</li>
+                                    <li>→ Market Leader Position</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competition Section -->
+    <section class="competition-section" style="padding: 6rem 2rem; background: #0a0e27;">
+        <div class="container">
+            <div class="section-header-invest">
+                <span class="section-tag">Competitive Landscape</span>
+                <h2>Clear Differentiation & Moat</h2>
+                <p>Hibrit model ile benzersiz pozisyon</p>
+            </div>
+
+            <div style="max-width: 1200px; margin: 3rem auto; overflow-x: auto;">
+                <table style="width: 100%; border-collapse: separate; border-spacing: 0; background: rgba(255,255,255,0.02); border-radius: 20px; overflow: hidden;">
+                    <thead>
+                        <tr style="background: rgba(39,174,96,0.2); border-bottom: 2px solid rgba(39,174,96,0.5);">
+                            <th style="padding: 1.5rem; text-align: left; color: white; font-weight: 700;">Feature</th>
+                            <th style="padding: 1.5rem; text-align: center; color: #27ae60; font-weight: 900; font-size: 1.1rem;">CarbonEcoMarket</th>
+                            <th style="padding: 1.5rem; text-align: center; color: rgba(255,255,255,0.6);">Traditional Consultants</th>
+                            <th style="padding: 1.5rem; text-align: center; color: rgba(255,255,255,0.6);">Pure Software</th>
+                            <th style="padding: 1.5rem; text-align: center; color: rgba(255,255,255,0.6);">Carbon Exchanges</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 1.5rem; color: rgba(255,255,255,0.9);">CBAM Compliance</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #27ae60; font-size: 1.5rem;">✓</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #f1c40f; font-size: 1.5rem;">~</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 1.5rem; color: rgba(255,255,255,0.9);">Blockchain Registry</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #27ae60; font-size: 1.5rem;">✓</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #f1c40f; font-size: 1.5rem;">~</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #27ae60; font-size: 1.5rem;">✓</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 1.5rem; color: rgba(255,255,255,0.9);">IoT MRV</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #27ae60; font-size: 1.5rem;">✓</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 1.5rem; color: rgba(255,255,255,0.9);">Carbon Trading</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #27ae60; font-size: 1.5rem;">✓</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #27ae60; font-size: 1.5rem;">✓</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 1.5rem; color: rgba(255,255,255,0.9);">6-Sided Ecosystem</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #27ae60; font-size: 1.5rem;">✓</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #f1c40f; font-size: 1.5rem;">~</td>
+                        </tr>
+                        <tr style="border-bottom: 1px solid rgba(255,255,255,0.05);">
+                            <td style="padding: 1.5rem; color: rgba(255,255,255,0.9);">AI-Powered Analytics</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #27ae60; font-size: 1.5rem;">✓</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #f1c40f; font-size: 1.5rem;">~</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #27ae60; font-size: 1.5rem;">✓</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #e74c3c; font-size: 1.5rem;">✗</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 1.5rem; color: rgba(255,255,255,0.9);">Price Point</td>
+                            <td style="padding: 1.5rem; text-align: center; color: #27ae60; font-weight: 700;">$500-30K/mo</td>
+                            <td style="padding: 1.5rem; text-align: center; color: rgba(255,255,255,0.6);">$50-200K/project</td>
+                            <td style="padding: 1.5rem; text-align: center; color: rgba(255,255,255,0.6);">$10-50K/mo</td>
+                            <td style="padding: 1.5rem; text-align: center; color: rgba(255,255,255,0.6);">2-5% fee</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div style="margin-top: 4rem; padding: 3rem; background: linear-gradient(135deg, rgba(39,174,96,0.1), rgba(46,204,113,0.05)); border-radius: 25px; border: 2px solid rgba(39,174,96,0.3);">
+                <h3 style="text-align: center; margin-bottom: 2rem; color: #27ae60;">🏆 Competitive Moat</h3>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🔐</div>
+                        <div style="color: white; font-weight: 700; margin-bottom: 0.5rem;">First-Mover Advantage</div>
+                        <div style="color: rgba(255,255,255,0.7); font-size: 0.95rem;">CBAM zorunluluğu öncesi pazar liderliği</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🤝</div>
+                        <div style="color: white; font-weight: 700; margin-bottom: 0.5rem;">Advisory Network</div>
+                        <div style="color: rgba(255,255,255,0.7); font-size: 0.95rem;">ACWA Power, Borusan EnBW, ÇEKÜL</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">⛓️</div>
+                        <div style="color: white; font-weight: 700; margin-bottom: 0.5rem;">Blockchain IP</div>
+                        <div style="color: rgba(255,255,255,0.7); font-size: 0.95rem;">Proprietary registry & smart contracts</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">📡</div>
+                        <div style="color: white; font-weight: 700; margin-bottom: 0.5rem;">IoT Data Advantage</div>
+                        <div style="color: rgba(255,255,255,0.7); font-size: 0.95rem;">Real-time MRV data ownership</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer invest-footer">
         <div class="container">
