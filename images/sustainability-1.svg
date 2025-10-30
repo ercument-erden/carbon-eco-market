@@ -1,0 +1,45 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2ecc71;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#27ae60;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="sunGrad">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f1c40f;stop-opacity:0.5" />
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#greenGrad)"/>
+
+  <!-- Sun -->
+  <circle cx="650" cy="100" r="60" fill="url(#sunGrad)"/>
+
+  <!-- Trees/Forest -->
+  <ellipse cx="200" cy="500" rx="80" ry="100" fill="#1e8449" opacity="0.7"/>
+  <ellipse cx="280" cy="480" rx="70" ry="90" fill="#239b56" opacity="0.8"/>
+  <ellipse cx="350" cy="490" rx="75" ry="95" fill="#27ae60" opacity="0.7"/>
+  <ellipse cx="150" cy="510" rx="65" ry="85" fill="#196f3d" opacity="0.7"/>
+
+  <!-- Wind Turbines -->
+  <g opacity="0.9">
+    <rect x="500" y="300" width="8" height="200" fill="white"/>
+    <line x1="504" y1="300" x2="454" y2="250" stroke="white" stroke-width="4"/>
+    <line x1="504" y1="300" x2="554" y2="280" stroke="white" stroke-width="4"/>
+    <line x1="504" y1="300" x2="500" y2="350" stroke="white" stroke-width="4"/>
+  </g>
+
+  <g opacity="0.85">
+    <rect x="620" y="320" width="6" height="150" fill="white"/>
+    <line x1="623" y1="320" x2="583" y2="280" stroke="white" stroke-width="3"/>
+    <line x1="623" y1="320" x2="663" y2="300" stroke="white" stroke-width="3"/>
+    <line x1="623" y1="320" x2="620" y2="360" stroke="white" stroke-width="3"/>
+  </g>
+
+  <!-- Ground -->
+  <ellipse cx="400" cy="550" rx="400" ry="50" fill="rgba(0,0,0,0.1)"/>
+
+  <!-- Leaves floating -->
+  <path d="M 100 200 Q 110 190 120 200 Q 110 210 100 200" fill="rgba(255,255,255,0.3)"/>
+  <path d="M 700 350 Q 710 340 720 350 Q 710 360 700 350" fill="rgba(255,255,255,0.25)"/>
+</svg>

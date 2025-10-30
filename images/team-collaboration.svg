@@ -1,0 +1,61 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="teamGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#teamGrad)"/>
+
+  <!-- Team members (simplified avatars) -->
+  <g opacity="0.9">
+    <!-- Person 1 -->
+    <circle cx="200" cy="250" r="50" fill="#ecf0f1"/>
+    <circle cx="200" cy="230" r="25" fill="#34495e"/>
+    <circle cx="200" cy="290" r="35" fill="#2c3e50"/>
+
+    <!-- Person 2 -->
+    <circle cx="400" cy="250" r="50" fill="#ecf0f1"/>
+    <circle cx="400" cy="230" r="25" fill="#34495e"/>
+    <circle cx="400" cy="290" r="35" fill="#2c3e50"/>
+
+    <!-- Person 3 -->
+    <circle cx="600" cy="250" r="50" fill="#ecf0f1"/>
+    <circle cx="600" cy="230" r="25" fill="#34495e"/>
+    <circle cx="600" cy="290" r="35" fill="#2c3e50"/>
+  </g>
+
+  <!-- Connection lines -->
+  <line x1="250" y1="250" x2="350" y2="250" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+  <line x1="450" y1="250" x2="550" y2="250" stroke="rgba(255,255,255,0.4)" stroke-width="3"/>
+
+  <!-- Collaboration icons -->
+  <circle cx="325" cy="250" r="15" fill="#27ae60" opacity="0.8"/>
+  <circle cx="500" cy="250" r="15" fill="#27ae60" opacity="0.8"/>
+
+  <!-- Network nodes -->
+  <circle cx="400" cy="150" r="10" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="200" cy="400" r="10" fill="rgba(255,255,255,0.5)"/>
+  <circle cx="600" cy="400" r="10" fill="rgba(255,255,255,0.5)"/>
+
+  <!-- Connecting network -->
+  <line x1="400" y1="150" x2="200" y2="250" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <line x1="400" y1="150" x2="400" y2="250" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  <line x1="400" y1="150" x2="600" y2="250" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+
+  <!-- Innovation bulbs -->
+  <g opacity="0.3">
+    <circle cx="100" cy="100" r="30" fill="none" stroke="white" stroke-width="2"/>
+    <circle cx="100" cy="100" r="20" fill="#f39c12"/>
+  </g>
+
+  <g opacity="0.3">
+    <circle cx="700" cy="500" r="30" fill="none" stroke="white" stroke-width="2"/>
+    <circle cx="700" cy="500" r="20" fill="#f39c12"/>
+  </g>
+
+  <!-- Title area -->
+  <rect x="50" y="450" width="700" height="100" fill="rgba(0,0,0,0.3)" rx="10"/>
+  <text x="400" y="510" text-anchor="middle" fill="white" font-size="32" font-weight="bold">Dünya Klasında Ekip</text>
+</svg>
