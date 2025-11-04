@@ -2,12 +2,13 @@
     --trust-teal: #0F6B63;
     --action-lime: #A6E22E;
     --success-emerald: #10b981;
-    --tech-blue: #3b82f6;
     --energy-amber: #f59e0b;
     --slate-dark: #1a1f36;
     --slate-medium: #6b7280;
     --cloud-light: #f8fafc;
     --white: #ffffff;
+    --linkedin-blue: #0A66C2;
+    --linkedin-hover: #004182;
     --gradient-primary: linear-gradient(135deg, #0F6B63 0%, #10b981 100%);
     --gradient-secondary: linear-gradient(135deg, #A6E22E 0%, #84cc16 100%);
     --gradient-dark: linear-gradient(135deg, #1a1f36 0%, #2d3748 100%);
@@ -431,21 +432,24 @@ body {
     margin-bottom: 1.5rem;
 }
 
+/* LINKEDIN BUTONU - ORJİNAL LİNKEDİN MAVİSİ */
 .linkedin-btn {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background: var(--tech-blue);
+    background: var(--linkedin-blue);
     color: var(--white);
     text-decoration: none;
     border-radius: var(--border-radius);
     transition: all 0.3s ease;
+    font-weight: 600;
 }
 
 .linkedin-btn:hover {
-    background: #2563eb;
+    background: var(--linkedin-hover);
     transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
 }
 
 /* Footer - KOYU GRİ ARKAPLAN */
