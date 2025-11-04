@@ -1,13 +1,14 @@
 :root {
-    --primary-color: #0F6B63;
-    --secondary-color: #A6E22E;
-    --accent-color: #3b82f6;
-    --dark-color: #1a1f36;
-    --light-color: #f8fafc;
-    --text-dark: #2d3748;
-    --text-light: #6b7280;
+    --trust-teal: #0F6B63;
+    --action-lime: #A6E22E;
+    --success-emerald: #10b981;
+    --tech-blue: #3b82f6;
+    --energy-amber: #f59e0b;
+    --slate-dark: #1a1f36;
+    --slate-medium: #6b7280;
+    --cloud-light: #f8fafc;
     --white: #ffffff;
-    --gradient-primary: linear-gradient(135deg, #0F6B63 0%, #059669 100%);
+    --gradient-primary: linear-gradient(135deg, #0F6B63 0%, #10b981 100%);
     --gradient-secondary: linear-gradient(135deg, #A6E22E 0%, #84cc16 100%);
     --gradient-dark: linear-gradient(135deg, #1a1f36 0%, #2d3748 100%);
     --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
@@ -29,9 +30,9 @@ html {
 }
 
 body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Inter', sans-serif;
     line-height: 1.6;
-    color: var(--text-dark);
+    color: var(--slate-dark);
     background: var(--white);
     overflow-x: hidden;
 }
@@ -62,18 +63,9 @@ body {
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
     font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
-    text-decoration: none;
-}
-
-.logo img {
-    height: 40px;
-    width: auto;
+    font-weight: 800;
+    color: var(--trust-teal);
 }
 
 .nav-menu {
@@ -84,14 +76,14 @@ body {
 
 .nav-menu a {
     text-decoration: none;
-    color: var(--text-dark);
-    font-weight: 500;
+    color: var(--slate-dark);
+    font-weight: 600;
     transition: color 0.3s ease;
     position: relative;
 }
 
 .nav-menu a:hover {
-    color: var(--primary-color);
+    color: var(--trust-teal);
 }
 
 .nav-menu a::after {
@@ -117,7 +109,7 @@ body {
 
 .language-switcher {
     display: flex;
-    background: var(--light-color);
+    background: var(--cloud-light);
     border-radius: 8px;
     padding: 2px;
 }
@@ -128,14 +120,13 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 6px;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 600;
     transition: all 0.3s ease;
 }
 
 .lang-btn.active {
-    background: var(--white);
-    box-shadow: var(--shadow-sm);
-    color: var(--primary-color);
+    background: var(--trust-teal);
+    color: var(--white);
 }
 
 .btn {
@@ -153,13 +144,13 @@ body {
 
 .btn-login {
     background: transparent;
-    color: var(--text-dark);
-    border: 2px solid var(--text-light);
+    color: var(--slate-dark);
+    border: 2px solid var(--slate-medium);
 }
 
 .btn-login:hover {
-    border-color: var(--primary-color);
-    color: var(--primary-color);
+    border-color: var(--trust-teal);
+    color: var(--trust-teal);
 }
 
 .btn-primary {
@@ -191,45 +182,33 @@ body {
 
 /* Hero Section */
 .hero {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
     background: var(--gradient-dark);
     color: var(--white);
+    padding: 150px 0 100px;
+    margin-top: 80px;
+    text-align: center;
+    position: relative;
     overflow: hidden;
 }
 
-.hero-background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: url('../images/hero-bg.jpg') center/cover;
-    opacity: 0.1;
-}
-
 .hero-content {
-    position: relative;
-    z-index: 2;
-    text-align: center;
     max-width: 800px;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 .hero-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 800;
     margin-bottom: 1.5rem;
     line-height: 1.1;
 }
 
 .hero-subtitle {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 3rem;
     opacity: 0.9;
-    font-weight: 400;
 }
 
 .hero-actions {
@@ -249,12 +228,12 @@ body {
     font-size: 3rem;
     font-weight: 800;
     margin-bottom: 1rem;
-    color: var(--dark-color);
+    color: var(--slate-dark);
 }
 
 .section-header p {
-    font-size: 1.25rem;
-    color: var(--text-light);
+    font-size: 1.2rem;
+    color: var(--slate-medium);
     max-width: 600px;
     margin: 0 auto;
 }
@@ -262,7 +241,7 @@ body {
 /* User Types */
 .user-types {
     padding: 100px 0;
-    background: var(--light-color);
+    background: var(--cloud-light);
 }
 
 .user-grid {
@@ -289,17 +268,17 @@ body {
 .user-icon {
     font-size: 3.5rem;
     margin-bottom: 1.5rem;
-    color: var(--primary-color);
+    color: var(--trust-teal);
 }
 
 .user-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
-    color: var(--dark-color);
+    color: var(--slate-dark);
 }
 
 .user-card p {
-    color: var(--text-light);
+    color: var(--slate-medium);
     line-height: 1.6;
 }
 
@@ -331,7 +310,7 @@ body {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
-    color: var(--dark-color);
+    color: var(--slate-dark);
 }
 
 .form-group input {
@@ -345,7 +324,7 @@ body {
 
 .form-group input:focus {
     outline: none;
-    border-color: var(--primary-color);
+    border-color: var(--trust-teal);
 }
 
 .calc-result {
@@ -403,7 +382,7 @@ body {
 /* Team Section */
 .team {
     padding: 100px 0;
-    background: var(--light-color);
+    background: var(--cloud-light);
 }
 
 .team-grid {
@@ -430,25 +409,23 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    background: var(--gradient-primary);
     margin: 0 auto 1.5rem;
-    overflow: hidden;
-    border: 4px solid var(--primary-color);
-}
-
-.team-photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 2.5rem;
 }
 
 .team-card h3 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 0.5rem;
-    color: var(--dark-color);
+    color: var(--slate-dark);
 }
 
 .team-role {
-    color: var(--primary-color);
+    color: var(--trust-teal);
     font-weight: 600;
     margin-bottom: 1.5rem;
 }
@@ -458,7 +435,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 1.5rem;
-    background: var(--accent-color);
+    background: var(--tech-blue);
     color: var(--white);
     text-decoration: none;
     border-radius: var(--border-radius);
@@ -486,7 +463,7 @@ footer {
 
 .footer-section h3 {
     margin-bottom: 1.5rem;
-    color: var(--secondary-color);
+    color: var(--action-lime);
 }
 
 .footer-section ul {
