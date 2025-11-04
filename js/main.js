@@ -1,4 +1,3 @@
-// Main JavaScript functionality
 class CarbonEcoMarket {
     constructor() {
         this.init();
