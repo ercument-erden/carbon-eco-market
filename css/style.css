@@ -180,9 +180,9 @@ body {
     font-size: 1.1rem;
 }
 
-/* Hero Section */
+/* Hero Section - YEŞİL GRADIENT */
 .hero {
-    background: var(--gradient-dark);
+    background: var(--gradient-primary);
     color: var(--white);
     padding: 150px 0 100px;
     margin-top: 80px;
@@ -238,10 +238,10 @@ body {
     margin: 0 auto;
 }
 
-/* User Types */
+/* User Types - BEYAZ ARKAPLAN */
 .user-types {
     padding: 100px 0;
-    background: var(--cloud-light);
+    background: var(--white);
 }
 
 .user-grid {
@@ -251,7 +251,7 @@ body {
 }
 
 .user-card {
-    background: var(--white);
+    background: var(--cloud-light);
     padding: 3rem 2rem;
     border-radius: var(--border-radius-lg);
     text-align: center;
@@ -282,10 +282,10 @@ body {
     line-height: 1.6;
 }
 
-/* Calculator */
+/* Calculator - AÇIK GRI ARKAPLAN */
 .calculator {
     padding: 100px 0;
-    background: var(--white);
+    background: var(--cloud-light);
 }
 
 .calculator-widget {
@@ -346,7 +346,7 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Statistics */
+/* Statistics - KOYU GRİ ARKAPLAN */
 .statistics {
     padding: 80px 0;
     background: var(--gradient-dark);
@@ -379,7 +379,7 @@ body {
     opacity: 0.9;
 }
 
-/* Team Section */
+/* Team Section - AÇIK GRI ARKAPLAN */
 .team {
     padding: 100px 0;
     background: var(--cloud-light);
@@ -447,7 +447,7 @@ body {
     transform: translateY(-2px);
 }
 
-/* Footer */
+/* Footer - KOYU GRİ ARKAPLAN */
 footer {
     background: var(--gradient-dark);
     color: var(--white);
