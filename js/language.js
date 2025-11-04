@@ -5,8 +5,9 @@ class LanguageManager {
             tr: {
                 // Navigation
                 'nav.home': 'Ana Sayfa',
-                'nav.about': 'Hakkımızda',
                 'nav.services': 'Hizmetler',
+                'nav.calculator': 'Hesaplayıcı',
+                'nav.team': 'Ekibimiz',
                 'nav.contact': 'İletişim',
                 'nav.login': 'Giriş Yap',
                 'nav.signup': 'Üye Ol',
@@ -17,34 +18,62 @@ class LanguageManager {
                 'hero.cta1': 'Hemen Başla',
                 'hero.cta2': 'Kurumsal Demo',
                 
-                // Users
-                'users.title': 'Kullanıcı Tipleri',
-                'users.subtitle': 'CarbonEcoMarket herkes için çözüm sunar',
+                // Services
+                'services.title': 'Kullanıcı Tipleri',
+                'services.subtitle': 'CarbonEcoMarket herkes için çözüm sunar',
+                'services.individual.title': 'Bireysel Kullanıcılar',
+                'services.individual.desc': 'Kişisel karbon ayak izinizi hesaplayın ve sertifika alın',
+                'services.farmers.title': 'Çiftçiler',
+                'services.farmers.desc': 'Karbon kredisi üretin ve satın',
+                'services.corporate.title': 'Kurumsal',
+                'services.corporate.desc': 'Şirketinizin karbon yönetimini optimize edin',
+                'services.ngo.title': 'STK\'lar',
+                'services.ngo.desc': 'Çevre projelerinizi karbon kredisine dönüştürün',
+                'services.traders.title': 'Traderlar',
+                'services.traders.desc': 'Profesyonel karbon ticareti yapın',
+                'services.energy.title': 'Enerji Sektörü',
+                'services.energy.desc': 'Enerji şirketleri için özel çözümler',
+                'services.partners.title': 'İş Ortakları',
+                'services.partners.desc': 'API entegrasyonu ile platformumuza entegre olun',
                 
                 // Calculator
-                'calc.title': 'Karbon Ayak İzinizi Hesaplayın',
-                'calc.subtitle': 'Basit hesaplama ile aylık karbon ayak izinizi öğrenin',
-                'calc.electricity': 'Elektrik Tüketimi (kWh/ay)',
-                'calc.gas': 'Doğalgaz Tüketimi (m³/ay)',
-                'calc.fuel': 'Yakıt Tüketimi (litre/ay)',
-                'calc.button': 'Hesapla',
-                'calc.result': 'Karbon Ayak İzi Sonucu',
-                'calc.monthly': 'Aylık karbon ayak iziniz',
+                'calculator.title': 'Karbon Ayak İzinizi Hesaplayın',
+                'calculator.subtitle': 'Basit hesaplama ile aylık karbon ayak izinizi öğrenin',
+                'calculator.electricity': 'Elektrik Tüketimi (kWh/ay)',
+                'calculator.gas': 'Doğalgaz Tüketimi (m³/ay)',
+                'calculator.fuel': 'Yakıt Tüketimi (litre/ay)',
+                'calculator.button': 'Hesapla',
+                
+                // Statistics
+                'stats.co2': 'Dengelenen CO₂ (ton)',
+                'stats.users': 'Aktif Kullanıcı',
+                'stats.volume': 'Günlük İşlem Hacmi',
+                'stats.projects': 'Desteklenen Proje',
                 
                 // Team
                 'team.title': 'Ekibimiz',
                 'team.subtitle': 'Deneyimli ekibimizle karbon piyasasını şekillendiriyoruz',
+                'team.ceo': 'Kurucu & CEO',
+                'team.cto': 'CTO',
+                'team.advisor': 'Danışman',
                 
                 // Footer
+                'footer.tagline': 'Sürdürülebilir bir gelecek için birlikte çalışıyoruz.',
                 'footer.contact': 'İletişim',
+                'footer.location': 'İstanbul, Türkiye',
                 'footer.links': 'Bağlantılar',
-                'footer.legal': 'Yasal'
+                'footer.legal': 'Yasal',
+                'footer.privacy': 'Gizlilik Politikası',
+                'footer.terms': 'Kullanım Şartları',
+                'footer.kvkk': 'KVKK',
+                'footer.copyright': '© 2025 CarbonEcoMarket. Tüm hakları saklıdır.'
             },
             en: {
                 // Navigation
                 'nav.home': 'Home',
-                'nav.about': 'About',
                 'nav.services': 'Services',
+                'nav.calculator': 'Calculator',
+                'nav.team': 'Our Team',
                 'nav.contact': 'Contact',
                 'nav.login': 'Login',
                 'nav.signup': 'Sign Up',
@@ -55,105 +84,20 @@ class LanguageManager {
                 'hero.cta1': 'Get Started',
                 'hero.cta2': 'Enterprise Demo',
                 
-                // Users
-                'users.title': 'User Types',
-                'users.subtitle': 'CarbonEcoMarket provides solutions for everyone',
-                
-                // Calculator
-                'calc.title': 'Calculate Your Carbon Footprint',
-                'calc.subtitle': 'Learn your monthly carbon footprint with simple calculation',
-                'calc.electricity': 'Electricity Consumption (kWh/month)',
-                'calc.gas': 'Gas Consumption (m³/month)',
-                'calc.fuel': 'Fuel Consumption (liters/month)',
-                'calc.button': 'Calculate',
-                'calc.result': 'Carbon Footprint Result',
-                'calc.monthly': 'Your monthly carbon footprint',
-                
-                // Team
-                'team.title': 'Our Team',
-                'team.subtitle': 'Shaping the carbon market with our experienced team',
-                
-                // Footer
-                'footer.contact': 'Contact',
-                'footer.links': 'Links',
-                'footer.legal': 'Legal'
-            }
-        };
-        
-        this.init();
-    }
-
-    init() {
-        this.bindEvents();
-        this.detectLanguage();
-    }
-
-    bindEvents() {
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                const lang = e.target.dataset.lang;
-                this.changeLanguage(lang);
-            });
-        });
-    }
-
-    detectLanguage() {
-        // Detect browser language or use default
-        const browserLang = navigator.language.split('-')[0];
-        if (browserLang === 'tr' || browserLang === 'en') {
-            this.changeLanguage(browserLang);
-        }
-    }
-
-    changeLanguage(lang) {
-        this.currentLang = lang;
-        document.documentElement.lang = lang;
-        
-        // Update active button
-        document.querySelectorAll('.lang-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.dataset.lang === lang);
-        });
-        
-        // Update content
-        this.updateContent();
-        
-        // Update URL for English version
-        if (lang === 'en') {
-            window.history.pushState({}, '', '/en');
-        } else {
-            window.history.pushState({}, '', '/');
-        }
-    }
-
-    updateContent() {
-        const translations = this.translations[this.currentLang];
-        
-        // Update all elements with data-i18n attribute
-        document.querySelectorAll('[data-i18n]').forEach(element => {
-            const key = element.getAttribute('data-i18n');
-            if (translations[key]) {
-                element.textContent = translations[key];
-            }
-        });
-        
-        // Update placeholders
-        const electricityInput = document.getElementById('electricity');
-        const gasInput = document.getElementById('gas');
-        const fuelInput = document.getElementById('fuel');
-        
-        if (electricityInput) {
-            electricityInput.placeholder = this.currentLang === 'tr' ? '300' : '300';
-        }
-        if (gasInput) {
-            gasInput.placeholder = this.currentLang === 'tr' ? '50' : '50';
-        }
-        if (fuelInput) {
-            fuelInput.placeholder = this.currentLang === 'tr' ? '100' : '100';
-        }
-    }
-}
-
-// Initialize language manager
-document.addEventListener('DOMContentLoaded', () => {
-    new LanguageManager();
-});
+                // Services
+                'services.title': 'User Types',
+                'services.subtitle': 'CarbonEcoMarket provides solutions for everyone',
+                'services.individual.title': 'Individual Users',
+                'services.individual.desc': 'Calculate your personal carbon footprint and get certified',
+                'services.farmers.title': 'Farmers',
+                'services.farmers.desc': 'Produce and sell carbon credits',
+                'services.corporate.title': 'Corporate',
+                'services.corporate.desc': 'Optimize your company\'s carbon management',
+                'services.ngo.title': 'NGOs',
+                'services.ngo.desc': 'Transform your environmental projects into carbon credits',
+                'services.traders.title': 'Traders',
+                'services.traders.desc': 'Professional carbon trading',
+                'services.energy.title': 'Energy Sector',
+                'services.energy.desc': 'Specialized solutions for energy companies',
+                'services.partners.title': 'Business Partners',
+                'services.partners.desc': 'Integrate with our platform via
