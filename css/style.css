@@ -2,16 +2,17 @@
     --trust-teal: #0F6B63;
     --action-lime: #A6E22E;
     --success-emerald: #10b981;
+    --tech-blue: #3b82f6;
     --energy-amber: #f59e0b;
-    --slate-dark: #1a1f36;
+    --slate-dark: #2F3E46;
     --slate-medium: #6b7280;
-    --cloud-light: #f8fafc;
+    --cloud-light: #F7F9FA;
     --white: #ffffff;
     --linkedin-blue: #0A66C2;
     --linkedin-hover: #004182;
-    --gradient-primary: linear-gradient(135deg, #0F6B63 0%, #10b981 100%);
-    --gradient-secondary: linear-gradient(135deg, #A6E22E 0%, #84cc16 100%);
-    --gradient-dark: linear-gradient(135deg, #1a1f36 0%, #2d3748 100%);
+    --gradient-primary: linear-gradient(135deg, var(--trust-teal) 0%, var(--success-emerald) 100%);
+    --gradient-secondary: linear-gradient(135deg, var(--action-lime) 0%, var(--energy-amber) 100%);
+    --gradient-dark: linear-gradient(135deg, var(--slate-dark) 0%, #1a202c 100%);
     --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
     --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
     --shadow-lg: 0 10px 25px rgba(0,0,0,0.1);
@@ -156,13 +157,14 @@ body {
 
 /* BİRİNCİ BUTON - LİME YEŞİLİ */
 .btn-primary {
-    background: var(--gradient-secondary);
+    background: var(--action-lime);
     color: var(--slate-dark);
     box-shadow: var(--shadow-md);
     font-weight: 700;
 }
 
 .btn-primary:hover {
+    background: var(--energy-amber);
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
 }
@@ -185,9 +187,9 @@ body {
     font-size: 1.1rem;
 }
 
-/* Hero Section - KOYU GRİ ARKAPLAN */
+/* Hero Section - TEAL GRADIENT */
 .hero {
-    background: var(--gradient-dark);
+    background: var(--gradient-primary);
     color: var(--white);
     padding: 150px 0 100px;
     margin-top: 80px;
@@ -243,10 +245,10 @@ body {
     margin: 0 auto;
 }
 
-/* User Types - BEYAZ ARKAPLAN */
+/* User Types - CLOUD LIGHT ARKAPLAN */
 .user-types {
     padding: 100px 0;
-    background: var(--white);
+    background: var(--cloud-light);
 }
 
 .user-grid {
@@ -256,7 +258,7 @@ body {
 }
 
 .user-card {
-    background: var(--cloud-light);
+    background: var(--white);
     padding: 3rem 2rem;
     border-radius: var(--border-radius-lg);
     text-align: center;
@@ -287,10 +289,10 @@ body {
     line-height: 1.6;
 }
 
-/* Calculator - AÇIK GRI ARKAPLAN */
+/* Calculator - WHITE ARKAPLAN */
 .calculator {
     padding: 100px 0;
-    background: var(--cloud-light);
+    background: var(--white);
 }
 
 .calculator-widget {
@@ -351,7 +353,7 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Statistics - YEŞİL GRADIENT */
+/* Statistics - TEAL GRADIENT */
 .statistics {
     padding: 80px 0;
     background: var(--gradient-primary);
@@ -381,7 +383,7 @@ body {
     opacity: 0.9;
 }
 
-/* Team Section - AÇIK GRI ARKAPLAN */
+/* Team Section - CLOUD LIGHT ARKAPLAN */
 .team {
     padding: 100px 0;
     background: var(--cloud-light);
@@ -452,9 +454,9 @@ body {
     box-shadow: var(--shadow-md);
 }
 
-/* Footer - KOYU GRİ ARKAPLAN */
+/* Footer - SLATE DARK ARKAPLAN */
 footer {
-    background: var(--gradient-dark);
+    background: var(--slate-dark);
     color: var(--white);
     padding: 80px 0 0;
 }
