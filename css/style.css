@@ -153,10 +153,12 @@ body {
     color: var(--trust-teal);
 }
 
+/* BİRİNCİ BUTON - LİME YEŞİLİ */
 .btn-primary {
-    background: var(--gradient-primary);
-    color: var(--white);
+    background: var(--gradient-secondary);
+    color: var(--slate-dark);
     box-shadow: var(--shadow-md);
+    font-weight: 700;
 }
 
 .btn-primary:hover {
@@ -164,14 +166,16 @@ body {
     box-shadow: var(--shadow-lg);
 }
 
+/* İKİNCİ BUTON - BEYAZ ŞEFFAF */
 .btn-secondary {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.15);
     color: var(--white);
-    border: 2px solid rgba(255,255,255,0.3);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
 }
 
 .btn-secondary:hover {
-    background: rgba(255,255,255,0.1);
+    background: rgba(255, 255, 255, 0.25);
     transform: translateY(-2px);
 }
 
@@ -180,9 +184,9 @@ body {
     font-size: 1.1rem;
 }
 
-/* Hero Section - YEŞİL GRADIENT */
+/* Hero Section - KOYU GRİ ARKAPLAN */
 .hero {
-    background: var(--gradient-primary);
+    background: var(--gradient-dark);
     color: var(--white);
     padding: 150px 0 100px;
     margin-top: 80px;
@@ -346,10 +350,10 @@ body {
     to { opacity: 1; transform: translateY(0); }
 }
 
-/* Statistics - KOYU GRİ ARKAPLAN */
+/* Statistics - YEŞİL GRADIENT */
 .statistics {
     padding: 80px 0;
-    background: var(--gradient-dark);
+    background: var(--gradient-primary);
     color: var(--white);
 }
 
@@ -368,10 +372,7 @@ body {
     font-size: 3.5rem;
     font-weight: 800;
     margin-bottom: 0.5rem;
-    background: var(--gradient-secondary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--white);
 }
 
 .stat-label {
@@ -490,4 +491,40 @@ footer {
     padding: 2rem 0;
     text-align: center;
     opacity: 0.7;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+    
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.2rem;
+    }
+    
+    .hero-actions {
+        flex-direction: column;
+    }
+    
+    .section-header h2 {
+        font-size: 2rem;
+    }
+    
+    .user-grid,
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
 }
