@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarbonEcoMarket - Küresel Karbon Pazar Yeri</title>
+    <meta name="description" content="Karbon ayak izinizi hesaplayın, sertifika alın, sürdürülebilir geleceğe katkı sağlayın">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="images/logo.svg" alt="CarbonEcoMarket">
+                <span>CarbonEcoMarket</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#about">Hakkımızda</a></li>
+                <li><a href="#services">Hizmetler</a></li>
+                <li><a href="#calculator">Hesaplayıcı</a></li>
+                <li><a href="#team">Ekibimiz</a></li>
+                <li><a href="#contact">İletişim</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="tr">TR</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="#" class="btn btn-login">Giriş Yap</a>
+                <a href="#" class="btn btn-primary">Üye Ol</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Küresel Karbon Pazar Yeri</h1>
+                <p class="hero-subtitle">Karbon ayak izinizi hesaplayın, sertifika alın, sürdürülebilir geleceğe katkı sağlayın</p>
+                <div class="hero-actions">
+                    <a href="#calculator" class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Hemen Başla
+                    </a>
+                    <a href="#contact" class="btn btn-secondary btn-large">
+                        <i class="fas fa-chart-line"></i>
+                        Kurumsal Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Types -->
+    <section id="services" class="user-types">
+        <div class="container">
+            <div class="section-header">
+                <h2>Kullanıcı Tipleri</h2>
+                <p>CarbonEcoMarket herkes için çözüm sunar</p>
+            </div>
+            <div class="user-grid">
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Bireysel Kullanıcılar</h3>
+                    <p>Kişisel karbon ayak izinizi hesaplayın ve sertifika alın</p>
+                </div>
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Çiftçiler</h3>
+                    <p>Karbon kredisi üretin ve satın</p>
+                </div>
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Kurumsal</h3>
+                    <p>Şirketinizin karbon yönetimini optimize edin</p>
+                </div>
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>STK'lar</h3>
+                    <p>Çevre projelerinizi karbon kredisine dönüştürün</p>
+                </div>
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Traderlar</h3>
+                    <p>Profesyonel karbon ticareti yapın</p>
+                </div>
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Enerji Sektörü</h3>
+                    <p>Enerji şirketleri için özel çözümler</p>
+                </div>
+                <div class="user-card">
+                    <div class="user-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>İş Ortakları</h3>
+                    <p>API entegrasyonu ile platformumuza entegre olun</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculator -->
+    <section id="calculator" class="calculator">
+        <div class="container">
+            <div class="section-header">
+                <h2>Karbon Ayak İzinizi Hesaplayın</h2>
+                <p>Basit hesaplama ile aylık karbon ayak izinizi öğrenin</p>
+            </div>
+            <div class="calculator-widget">
+                <div class="calc-form">
+                    <div class="form-group">
+                        <label for="electricity">Elektrik Tüketimi (kWh/ay)</label>
+                        <input type="number" id="electricity" placeholder="300">
+                    </div>
+                    <div class="form-group">
+                        <label for="gas">Doğalgaz Tüketimi (m³/ay)</label>
+                        <input type="number" id="gas" placeholder="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="fuel">Yakıt Tüketimi (litre/ay)</label>
+                        <input type="number" id="fuel" placeholder="100">
+                    </div>
+                    <button class="btn btn-primary btn-large" id="calculate-btn">
+                        <i class="fas fa-calculator"></i>
+                        Hesapla
+                    </button>
+                </div>
+                <div class="calc-result" id="calc-result"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="12500">0</div>
+                    <div class="stat-label">Dengelenen CO₂ (ton)</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="8500">0</div>
+                    <div class="stat-label">Aktif Kullanıcı</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="2500000">0</div>
+                    <div class="stat-label">Günlük İşlem Hacmi</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="156">0</div>
+                    <div class="stat-label">Desteklenen Proje</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ekibimiz</h2>
+                <p>Deneyimli ekibimizle karbon piyasasını şekillendiriyoruz</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-photo">
+                        <img src="images/team/ercument.jpg" alt="Ercüment Erden">
+                    </div>
+                    <h3>Ercüment Erden</h3>
+                    <p class="team-role">Kurucu & CEO</p>
+                    <a href="https://www.linkedin.com/in/erc%C3%BCment-erden/" class="linkedin-btn" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo">
+                        <img src="images/team/fatih.jpg" alt="Fatih Malyemez">
+                    </div>
+                    <h3>Fatih Malyemez</h3>
+                    <p class="team-role">CTO</p>
+                    <a href="https://www.linkedin.com/in/fatih-malyemez-86b98a245/" class="linkedin-btn" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo">
+                        <img src="images/team/selim.jpg" alt="Selim Güven">
+                    </div>
+                    <h3>Selim Güven</h3>
+                    <p class="team-role">Danışman</p>
+                    <a href="https://www.linkedin.com/in/selim-g%C3%BCven-a6b70717/" class="linkedin-btn" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo">
+                        <img src="images/team/huseyin.jpg" alt="Hüseyin Yeğin">
+                    </div>
+                    <h3>Hüseyin Yeğin</h3>
+                    <p class="team-role">Danışman</p>
+                    <a href="https://www.linkedin.com/in/h%C3%BCseyin-ye%C4%9Fin-2b4290219/" class="linkedin-btn" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo">
+                        <img src="images/team/ilgin.jpg" alt="Ilgın Sözen">
+                    </div>
+                    <h3>Ilgın Sözen</h3>
+                    <p class="team-role">Danışman</p>
+                    <a href="https://www.linkedin.com/in/ilg%C4%B1n-s%C3%B6zen-8b2a5963/" class="linkedin-btn" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="images/logo.svg" alt="CarbonEcoMarket">
+                        <span>CarbonEcoMarket</span>
+                    </div>
+                    <p>Sürdürülebilir bir gelecek için birlikte çalışıyoruz.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>İletişim</h3>
+                    <p><i class="fas fa-envelope"></i> ercument.erden@lionexia.com</p>
+                    <p><i class="fas fa-phone"></i> +90 532 440 83 89</p>
+                    <p><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Bağlantılar</h3>
+                    <ul>
+                        <li><a href="#home">Ana Sayfa</a></li>
+                        <li><a href="#about">Hakkımızda</a></li>
+                        <li><a href="#services">Hizmetler</a></li>
+                        <li><a href="#team">Ekibimiz</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Yasal</h3>
+                    <ul>
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                        <li><a href="#">Kullanım Şartları</a></li>
+                        <li><a href="#">KVKK</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CarbonEcoMarket. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/calculator.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
