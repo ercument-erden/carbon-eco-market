@@ -1,18 +1,26 @@
 # CarbonEcoMarket
 
-Küresel Karbon Pazar Yeri - Sürdürülebilir bir gelecek için karbon yönetim platformu.
+Global Carbon Marketplace - Carbon management platform for a sustainable future.
 
-## 🚀 Özellikler
+## Features
 
-- 🌍 Çift dilli destek (Türkçe/İngilizce)
-- 📱 Tamamen responsive tasarım
-- 🔢 Karbon ayak izi hesaplayıcı
-- 👥 7 farklı kullanıcı tipi için çözümler
-- 📊 Canlı istatistikler
-- 🎨 Modern ve premium tasarım
+- 🌍 Bilingual support (Turkish/English)
+- 📱 Fully responsive design
+- 🔢 Carbon footprint calculator
+- 👥 Solutions for 7 different user types
+- 📊 Live statistics
+- 🎨 Modern and premium design
 
-## 🛠️ Kurulum
+## Team
 
-1. Repository'yi klonlayın:
-```bash
-git clone https://github.com/username/carbonecomarket.git
+- **Ercüment Erden** - Founder & CEO
+- **Fatih Malyemez** - CTO
+- **Selim Güven** - Advisor
+- **Hüseyin Yeğin** - Advisor
+- **Ilgın Sözen** - Advisor
+
+## Contact
+
+- **Email:** ercument.erden@lionexia.com
+- **Phone:** +90 532 440 83 89
+- **Location:** Istanbul, Turkey
